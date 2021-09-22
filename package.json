@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cpdunphy/Ballygorey/issues"
   },
-  "homepage": "https://github.com/cpdunphy/Ballygorey#readme"
+  "homepage": "https://github.com/cpdunphy/Ballygorey#readme",
+  "dependencies": {
+    "socket.io": "^4.2.0"
+  }
 }
