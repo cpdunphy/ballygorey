@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "clean": "",
     "prebuild": "npm run clean",
     "build": "ELEVENTY_ENV=prod npx eleventy",
     "predeploy": "npm run build:prod",
