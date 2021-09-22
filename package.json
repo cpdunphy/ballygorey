@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "",
     "prebuild": "npm run clean",
-    "build": "ELEVENTY_ENV=prod npx eleventy",
+    "build": "",
     "predeploy": "npm run build:prod",
     "deploy": "npx firebase deploy"
   },
