@@ -1,10 +1,13 @@
 {
   "name": "ballygorey",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "npx del dist",
+    "prebuild": "npm run clean",
+    "build:prod": "ELEVENTY_ENV=prod npx eleventy",
+    "predeploy": "npm run build:prod",
+    "deploy": "npx firebase deploy",
   },
   "repository": {
     "type": "git",
