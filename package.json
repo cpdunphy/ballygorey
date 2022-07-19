@@ -20,5 +20,11 @@
   },
   "homepage": "https://github.com/cpdunphy/Ballygorey#readme",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "firebase": "^9.9.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^11.3.0"
+  }
 }
