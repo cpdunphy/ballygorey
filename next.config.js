@@ -1,13 +1,6 @@
-/**
- * @type {import('next').NextConfig}
- */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  // output: "export",
-  images: {
-    unoptimized: true,
-  },
-  pageExtensions: ["js", "jsx", "ts", "tsx"],
+  // reactStrictMode: true,
   async redirects() {
     return [
       {

@@ -1,45 +1,239 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
+/***/ 108:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _nextui_org_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @nextui-org/react */ \"@nextui-org/react\");\n/* harmony import */ var _nextui_org_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__);\n// 1. import `NextUIProvider` component\n\n\n// import { Layout } from \"./Layout.js\";\n\nfunction MyApp({ Component , pageProps  }) {\n    return(// 2. Use at the root of your app\n    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.NextUIProvider, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Navbar, {\n                isBordered: true,\n                variant: \"sticky\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Brand, {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                            b: true,\n                            color: \"inherit\",\n                            hideIn: \"xs\",\n                            children: \"BALLYGOREY\"\n                        }, void 0, false, {\n                            fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                            lineNumber: 15,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                        lineNumber: 14,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Content, {\n                        activeColor: \"primary\",\n                        hideIn: \"xs\",\n                        variant: \"sticky\",\n                        children: [\n                            \" \",\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Link, {\n                                href: \"/\",\n                                children: \"Projects\"\n                            }, void 0, false, {\n                                fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                                lineNumber: 27,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Link, {\n                                href: \"#\",\n                                children: \"Experience\"\n                            }, void 0, false, {\n                                fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                                lineNumber: 28,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Link, {\n                                href: \"/calendar\",\n                                children: \"Book a Meeting\"\n                            }, void 0, false, {\n                                fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                                lineNumber: 29,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Link, {\n                                href: \"#\",\n                                children: \"Contact Me\"\n                            }, void 0, false, {\n                                fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                                lineNumber: 30,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                        lineNumber: 22,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Content, {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Link, {\n                                color: \"inherit\",\n                                href: \"#\",\n                                children: \"Login\"\n                            }, void 0, false, {\n                                fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                                lineNumber: 33,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Item, {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Button, {\n                                    auto: true,\n                                    flat: true,\n                                    as: _nextui_org_react__WEBPACK_IMPORTED_MODULE_1__.Link,\n                                    href: \"#\",\n                                    children: \"Sign Up\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                                    lineNumber: 39,\n                                    columnNumber: 13\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                                lineNumber: 38,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                        lineNumber: 32,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n                lineNumber: 50,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/collin/Developer/Ballygorey/pages/_app.js\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, this));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUEsdUNBQXVDOztBQUNZO0FBQ25ELHdDQUF3QztBQUNvQztBQUU1RSxTQUFTTyxNQUFNLEVBQUVDLFVBQVMsRUFBRUMsVUFBUyxFQUFFLEVBQUU7SUFDdkMsT0FDRSxpQ0FBaUM7a0JBQ2pDLDhEQUFDVCw2REFBY0E7OzBCQUViLDhEQUFDQyxxREFBTUE7Z0JBQ0xTLFVBQVU7Z0JBQ1ZDLFNBQVE7O2tDQUNSLDhEQUFDViwyREFBWTtrQ0FDWCw0RUFBQ0csbURBQUlBOzRCQUNIUyxDQUFDOzRCQUNEQyxPQUFNOzRCQUNOQyxRQUFPO3NDQUFLOzs7Ozs7Ozs7OztrQ0FJaEIsOERBQUNkLDZEQUFjO3dCQUNiZ0IsYUFBWTt3QkFDWkYsUUFBTzt3QkFDUEosU0FBUTs7NEJBQ1A7MENBQ0QsOERBQUNWLDBEQUFXO2dDQUFDaUIsTUFBSzswQ0FBSTs7Ozs7OzBDQUN0Qiw4REFBQ2pCLDBEQUFXO2dDQUFDaUIsTUFBSzswQ0FBSTs7Ozs7OzBDQUN0Qiw4REFBQ2pCLDBEQUFXO2dDQUFDaUIsTUFBSzswQ0FBWTs7Ozs7OzBDQUM5Qiw4REFBQ2pCLDBEQUFXO2dDQUFDaUIsTUFBSzswQ0FBSTs7Ozs7Ozs7Ozs7O2tDQUV4Qiw4REFBQ2pCLDZEQUFjOzswQ0FDYiw4REFBQ0EsMERBQVc7Z0NBQ1ZhLE9BQU07Z0NBQ05JLE1BQUs7MENBQUk7Ozs7OzswQ0FHWCw4REFBQ2pCLDBEQUFXOzBDQUNWLDRFQUFDQyxxREFBTUE7b0NBQ0xrQixJQUFJO29DQUNKQyxJQUFJO29DQUNKQyxJQUFJbkIsbURBQUlBO29DQUNSZSxNQUFLOzhDQUFJOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzswQkFPakIsOERBQUNWO2dCQUFXLEdBQUdDLFNBQVM7Ozs7Ozs7Ozs7OztBQUc5QjtBQUVBLGlFQUFlRixLQUFLQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcGFnZXMvX2FwcC5qcz9lMGFkIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIDEuIGltcG9ydCBgTmV4dFVJUHJvdmlkZXJgIGNvbXBvbmVudFxuaW1wb3J0IHsgTmV4dFVJUHJvdmlkZXIgfSBmcm9tIFwiQG5leHR1aS1vcmcvcmVhY3RcIjtcbi8vIGltcG9ydCB7IExheW91dCB9IGZyb20gXCIuL0xheW91dC5qc1wiO1xuaW1wb3J0IHsgTmF2YmFyLCBCdXR0b24sIExpbmssIFRleHQsIENhcmQsIFJhZGlvIH0gZnJvbSBcIkBuZXh0dWktb3JnL3JlYWN0XCI7XG5cbmZ1bmN0aW9uIE15QXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfSkge1xuICByZXR1cm4gKFxuICAgIC8vIDIuIFVzZSBhdCB0aGUgcm9vdCBvZiB5b3VyIGFwcFxuICAgIDxOZXh0VUlQcm92aWRlcj5cbiAgICAgIHsvKiA8TGF5b3V0PiAqL31cbiAgICAgIDxOYXZiYXJcbiAgICAgICAgaXNCb3JkZXJlZFxuICAgICAgICB2YXJpYW50PVwic3RpY2t5XCI+XG4gICAgICAgIDxOYXZiYXIuQnJhbmQ+XG4gICAgICAgICAgPFRleHRcbiAgICAgICAgICAgIGJcbiAgICAgICAgICAgIGNvbG9yPVwiaW5oZXJpdFwiXG4gICAgICAgICAgICBoaWRlSW49XCJ4c1wiPlxuICAgICAgICAgICAgQkFMTFlHT1JFWVxuICAgICAgICAgIDwvVGV4dD5cbiAgICAgICAgPC9OYXZiYXIuQnJhbmQ+XG4gICAgICAgIDxOYXZiYXIuQ29udGVudFxuICAgICAgICAgIGFjdGl2ZUNvbG9yPVwicHJpbWFyeVwiXG4gICAgICAgICAgaGlkZUluPVwieHNcIlxuICAgICAgICAgIHZhcmlhbnQ9XCJzdGlja3lcIj5cbiAgICAgICAgICB7XCIgXCJ9XG4gICAgICAgICAgPE5hdmJhci5MaW5rIGhyZWY9XCIvXCI+UHJvamVjdHM8L05hdmJhci5MaW5rPlxuICAgICAgICAgIDxOYXZiYXIuTGluayBocmVmPVwiI1wiPkV4cGVyaWVuY2U8L05hdmJhci5MaW5rPlxuICAgICAgICAgIDxOYXZiYXIuTGluayBocmVmPVwiL2NhbGVuZGFyXCI+Qm9vayBhIE1lZXRpbmc8L05hdmJhci5MaW5rPlxuICAgICAgICAgIDxOYXZiYXIuTGluayBocmVmPVwiI1wiPkNvbnRhY3QgTWU8L05hdmJhci5MaW5rPlxuICAgICAgICA8L05hdmJhci5Db250ZW50PlxuICAgICAgICA8TmF2YmFyLkNvbnRlbnQ+XG4gICAgICAgICAgPE5hdmJhci5MaW5rXG4gICAgICAgICAgICBjb2xvcj1cImluaGVyaXRcIlxuICAgICAgICAgICAgaHJlZj1cIiNcIj5cbiAgICAgICAgICAgIExvZ2luXG4gICAgICAgICAgPC9OYXZiYXIuTGluaz5cbiAgICAgICAgICA8TmF2YmFyLkl0ZW0+XG4gICAgICAgICAgICA8QnV0dG9uXG4gICAgICAgICAgICAgIGF1dG9cbiAgICAgICAgICAgICAgZmxhdFxuICAgICAgICAgICAgICBhcz17TGlua31cbiAgICAgICAgICAgICAgaHJlZj1cIiNcIj5cbiAgICAgICAgICAgICAgU2lnbiBVcFxuICAgICAgICAgICAgPC9CdXR0b24+XG4gICAgICAgICAgPC9OYXZiYXIuSXRlbT5cbiAgICAgICAgPC9OYXZiYXIuQ29udGVudD5cbiAgICAgIDwvTmF2YmFyPlxuICAgICAgey8qIDwvTGF5b3V0PiAqL31cbiAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cbiAgICA8L05leHRVSVByb3ZpZGVyPlxuICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBNeUFwcDtcbiJdLCJuYW1lcyI6WyJOZXh0VUlQcm92aWRlciIsIk5hdmJhciIsIkJ1dHRvbiIsIkxpbmsiLCJUZXh0IiwiQ2FyZCIsIlJhZGlvIiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJpc0JvcmRlcmVkIiwidmFyaWFudCIsIkJyYW5kIiwiYiIsImNvbG9yIiwiaGlkZUluIiwiQ29udGVudCIsImFjdGl2ZUNvbG9yIiwiaHJlZiIsIkl0ZW0iLCJhdXRvIiwiZmxhdCIsImFzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Box": () => (/* binding */ Box),
+  "default": () => (/* binding */ _app)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "@nextui-org/react"
+var react_ = __webpack_require__(735);
+;// CONCATENATED MODULE: external "react-bootstrap/SSRProvider"
+const SSRProvider_namespaceObject = require("react-bootstrap/SSRProvider");
+var SSRProvider_default = /*#__PURE__*/__webpack_require__.n(SSRProvider_namespaceObject);
+;// CONCATENATED MODULE: ./src/pages/_app.tsx
+// import "@/styles/globals.css";
+
+
+
+const fonts = {
+    sans: "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto','Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
+};
+const theme = (0,react_.createTheme)({
+    type: "light",
+    theme: {
+        fonts
+    }
+});
+// import { Content } from "./Content.js"
+
+const Box = (0,react_.styled)("div", {
+    boxSizing: "border-box"
+});
+const collapseItems = [
+    "Book a Meeting",
+    "Contact Me"
+];
+function NavigationBar() {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Navbar, {
+        isBordered: true,
+        variant: "sticky",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.Toggle, {
+                "aria-label": "toggle navigation",
+                showIn: "xs"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.Brand, {
+                children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
+                    b: true,
+                    color: "inherit",
+                    children: "BALLYGOREY"
+                })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Navbar.Content, {
+                hideIn: "xs",
+                variant: "underline",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.Link, {
+                        isActive: true,
+                        href: "/about",
+                        children: "About"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.Link, {
+                        href: "/calendar",
+                        children: "Book a Meeting"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.Link, {
+                        href: "mailto:collind@vt.edu",
+                        children: "Contact Me"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.Content, {
+                css: {
+                    "@xs": {
+                        w: "12%",
+                        jc: "flex-end"
+                    }
+                },
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Dropdown, {
+                    placement: "bottom-right",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.Item, {
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Dropdown.Trigger, {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Avatar, {
+                                    bordered: true,
+                                    as: "button",
+                                    color: "secondary",
+                                    size: "md",
+                                    src: "https://www.sec.vt.edu/content/dam/sec_vt_edu/headshots/2022-23/CollinDunphy-Profile.jpg"
+                                })
+                            })
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Dropdown.Menu, {
+                            "aria-label": "User menu actions",
+                            color: "secondary",
+                            onAction: (actionKey)=>console.log({
+                                    actionKey
+                                }),
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Dropdown.Item, {
+                                    css: {
+                                        height: "$18"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
+                                            b: true,
+                                            color: "inherit",
+                                            css: {
+                                                d: "flex"
+                                            },
+                                            children: "Signed in as"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
+                                            b: true,
+                                            color: "inherit",
+                                            css: {
+                                                d: "flex"
+                                            },
+                                            children: "collind@vt.edu"
+                                        })
+                                    ]
+                                }, "profile"),
+                                /*#__PURE__*/ jsx_runtime_.jsx(react_.Dropdown.Item, {
+                                    withDivider: true,
+                                    children: "My Settings"
+                                }, "settings"),
+                                /*#__PURE__*/ jsx_runtime_.jsx(react_.Dropdown.Item, {
+                                    children: "Team Settings"
+                                }, "team_settings"),
+                                /*#__PURE__*/ jsx_runtime_.jsx(react_.Dropdown.Item, {
+                                    withDivider: true,
+                                    children: "Analytics"
+                                }, "analytics"),
+                                /*#__PURE__*/ jsx_runtime_.jsx(react_.Dropdown.Item, {
+                                    children: "System"
+                                }, "system"),
+                                /*#__PURE__*/ jsx_runtime_.jsx(react_.Dropdown.Item, {
+                                    children: "Configurations"
+                                }, "configurations"),
+                                /*#__PURE__*/ jsx_runtime_.jsx(react_.Dropdown.Item, {
+                                    withDivider: true,
+                                    children: "Help & Feedback"
+                                }, "help_and_feedback"),
+                                /*#__PURE__*/ jsx_runtime_.jsx(react_.Dropdown.Item, {
+                                    withDivider: true,
+                                    color: "error",
+                                    children: "Log Out"
+                                }, "logout")
+                            ]
+                        })
+                    ]
+                })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.Collapse, {
+                children: collapseItems.map((item, index)=>/*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.CollapseItem, {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Link, {
+                            color: "inherit",
+                            css: {
+                                minWidth: "100%"
+                            },
+                            href: "#",
+                            children: item
+                        })
+                    }, item))
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.Collapse, {
+                children: collapseItems.map((item, index)=>/*#__PURE__*/ jsx_runtime_.jsx(react_.Navbar.CollapseItem, {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Link, {
+                            color: "inherit",
+                            css: {
+                                minWidth: "100%"
+                            },
+                            href: "#",
+                            children: item
+                        })
+                    }, item))
+            })
+        ]
+    });
+}
+function App({ Component , pageProps  }) {
+    return /*#__PURE__*/ jsx_runtime_.jsx((SSRProvider_default()), {
+        children: /*#__PURE__*/ jsx_runtime_.jsx(react_.NextUIProvider, {
+            theme: theme,
+            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Box, {
+                css: {
+                    maxW: "100%"
+                },
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(NavigationBar, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                        ...pageProps
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(react_.Container, {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Row, {
+                            align: "center",
+                            justify: "center",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(react_.Text, {
+                                children: "\xa9 Copyright Ballygorey Labs LLC"
+                            })
+                        })
+                    })
+                ]
+            })
+        })
+    });
+}
+/* harmony default export */ const _app = (App);
+
 
 /***/ }),
 
-/***/ "@nextui-org/react":
-/*!************************************!*\
-  !*** external "@nextui-org/react" ***!
-  \************************************/
+/***/ 735:
 /***/ ((module) => {
 
 module.exports = require("@nextui-org/react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -50,7 +244,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
+var __webpack_exports__ = (__webpack_exec__(108));
 module.exports = __webpack_exports__;
 
 })();
