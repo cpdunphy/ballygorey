@@ -7,10 +7,10 @@ import {
   ColorSchemeProvider,
   ColorScheme,
   AppShell,
-  Header,
   Footer,
   Text,
 } from '@mantine/core'
+import { HeaderResponsive } from './_header'
 import { Brand } from './_brand'
 import { FooterSocial } from './_footer'
 import { useServerInsertedHTML } from 'next/navigation'
@@ -37,6 +37,13 @@ export default function RootStyleRegistry({
   const toggleColorScheme = (value?: ColorScheme) =>
     setColorScheme(value || (colorScheme === 'dark' ? 'light' : 'dark'))
 
+  const links = [
+    { link: '/', label: 'Home' },
+    { link: '/about', label: 'About' },
+    { link: '/blog', label: 'Blog' },
+    { link: '/contact', label: 'Contact' },
+  ]
+
   return (
     <CacheProvider value={cache}>
       <ColorSchemeProvider
@@ -46,21 +53,20 @@ export default function RootStyleRegistry({
         <MantineProvider
           withGlobalStyles
           withNormalizeCSS
-          theme={{ colorScheme }}
+          theme={{
+            colorScheme,
+            primaryColor: 'teal',
+            fontFamily: '-apple-system',
+          }}
         >
           <AppShell
             padding="md"
-            header={
-              <Header height={60} p="xs">
-                {/* Header content */}
-                <Brand />
-              </Header>
-            }
+            header={<HeaderResponsive links={links} />}
             styles={(theme) => ({
               main: {
                 backgroundColor:
                   theme.colorScheme === 'dark'
-                    ? theme.colors.dark[8]
+                    ? theme.colors.dark[9]
                     : theme.colors.gray[0],
               },
             })}

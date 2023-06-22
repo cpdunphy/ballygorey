@@ -1,6 +1,6 @@
 'use client'
 
-import { createStyles, Select, TextInput } from '@mantine/core'
+import { createStyles, Select, TextInput, Group } from '@mantine/core'
 import { Button, rem, Tooltip } from '@mantine/core'
 import { useClipboard } from '@mantine/hooks'
 import { IconCopy, IconCheck } from '@tabler/icons-react'
@@ -31,20 +31,19 @@ export function Test() {
   const clipboard = useClipboard()
   return (
     <div>
-      <TextInput
-        label="Shipping address"
-        placeholder="15329 Huston 21st"
-        classNames={classes}
-      />
-
-      <Select
-        style={{ marginTop: 20, zIndex: 2 }}
-        data={['React', 'Angular', 'Svelte', 'Vue']}
-        placeholder="Pick one"
-        label="Your favorite library/framework"
-        classNames={classes}
-      />
-
+      <Group grow position="center">
+        <TextInput
+          label="Shipping address"
+          placeholder="15329 Huston 21st"
+          classNames={classes}
+        />
+        <Select
+          data={['React', 'Angular', 'Svelte', 'Vue']}
+          placeholder="Pick one"
+          label="Your favorite library/framework"
+          classNames={classes}
+        />
+      </Group>
       <Tooltip
         label="Link copied!"
         offset={5}

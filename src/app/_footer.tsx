@@ -10,6 +10,8 @@ import {
   IconBrandTwitter,
   IconBrandLinkedin,
   IconBrandInstagram,
+  IconMail,
+  IconBrandFacebook,
 } from '@tabler/icons-react'
 import { Logo } from './_logo'
 
@@ -60,7 +62,7 @@ export function FooterSocial() {
           <ActionIcon
             size="lg"
             component="a"
-            href="https://instagram.com/collindunphy"
+            href="https://instagram.com/collindunphy/"
           >
             <IconBrandInstagram size="1.05rem" stroke={1.5} />
           </ActionIcon>
@@ -70,6 +72,20 @@ export function FooterSocial() {
             href="https://twitter.com/collindunphy/"
           >
             <IconBrandTwitter size="1.05rem" stroke={1.5} />
+          </ActionIcon>
+          <ActionIcon
+            size="lg"
+            component="a"
+            href="https://facebook.com/collindunphy.7/"
+          >
+            <IconBrandFacebook size="1.05rem" stroke={1.5} />
+          </ActionIcon>
+          <ActionIcon
+            size="lg"
+            component="a"
+            href="mailto:collin@ballygorey.com/"
+          >
+            <IconMail size="1.05rem" stroke={1.5} />
           </ActionIcon>
         </Group>
       </Container>
