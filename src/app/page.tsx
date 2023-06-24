@@ -1,15 +1,13 @@
-'use client'
-
-import { Test } from './test-comp'
-import { AppShell, Header, Footer, Text } from '@mantine/core'
-import { Brand } from './_brand'
-import { FooterSocial } from './_footer'
-
 export default function Page() {
   return (
     <>
-      <Text>Hello World my name is Collin Dunphy</Text>
-      <Test />
+      <div>
+        <div class="text-xl font-medium text-black">Collin Dunphy</div>
+        <p class="text-slate-500">
+          Hey I'm Collin. I'm a Junior at Virginia Tech majoring in Computer
+          Science.
+        </p>
+      </div>
     </>
   )
 }
