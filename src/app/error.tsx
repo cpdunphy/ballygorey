@@ -14,5 +14,9 @@ export default function Error({
     console.error(error)
   }, [error])
 
-  return <h2>Something went wrong!</h2>
+  return (
+    <div>
+      <p>Oh no, something went wrong... maybe refresh?</p>
+    </div>
+  )
 }
