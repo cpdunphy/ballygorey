@@ -74,22 +74,22 @@ export default function Footer() {
           &copy; 2023 Ballygorey Labs LLC. All Rights Reserved.
         </span>
         <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-          {/* LinkedIn Account */}
+          {/* LinkedIn Page */}
           <a
-            href="https://facebook.com/collindunphy.7/"
+            href="https://linkedin.com/in/collindunphy/"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <LinkedInIcon />
-            <span className="sr-only">LinkedIn page</span>
+            <span className="sr-only">LinkedIn Page</span>
           </a>
 
-          {/* Instagram Account */}
+          {/* Instagram Page */}
           <a
             href="https://instagram.com/collindunphy/"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <InstagramIcon />
-            <span className="sr-only">Instagram page</span>
+            <span className="sr-only">Instagram Page</span>
           </a>
 
           {/* GitHub Account */}
@@ -98,34 +98,34 @@ export default function Footer() {
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <GitHubIcon />
-            <span className="sr-only">GitHub account</span>
+            <span className="sr-only">GitHub Account</span>
           </a>
 
-          {/* Facebook Account */}
+          {/* Facebook Page */}
           <a
             href="https://facebook.com/collindunphy.7/"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <FacebookIcon />
-            <span className="sr-only">Facebook page</span>
+            <span className="sr-only">Facebook Page</span>
           </a>
 
-          {/* Twitter Account */}
+          {/* Twitter Page */}
           <a
             href="https://twitter.com/collindunphy/"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <TwitterIcon />
-            <span className="sr-only">Twitter page</span>
+            <span className="sr-only">Twitter Page</span>
           </a>
 
-          {/* E-Mail Account */}
+          {/* E-Mail Address */}
           <a
             href="mailto:collin@ballygorey.com/"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <EnvelopeIcon className="h-5 w-5" />
-            <span className="sr-only">Mail account</span>
+            <span className="sr-only">E-Mail Address</span>
           </a>
         </div>
       </div>
