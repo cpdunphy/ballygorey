@@ -19,7 +19,7 @@ export default function Page() {
         </Link>
 
         <div className="text-3xl font-bold sm:text-5xl">
-          Software engineer, amazing human, and ameture comedian.
+          Software engineer, amazing human, and amateur comedian.
         </div>
         <p className="text-slate-500">
           Hey, I&apos;m Collin. 👋 I&apos;m a Junior majoring in Computer
