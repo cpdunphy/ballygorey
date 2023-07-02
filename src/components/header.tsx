@@ -1,5 +1,6 @@
 'use client'
 import { Fragment, useState } from 'react'
+import Link from 'next/link'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
   ArrowPathIcon,
@@ -150,15 +151,15 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6">
-            Features
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6">
-            Marketplace
-          </a>
-          <a href="/contact" className="text-sm font-semibold leading-6">
-            Contact
-          </a>
+          <Link href="/about" className="text-sm font-semibold leading-6">
+            About
+          </Link>
+          <Link href="/articles" className="text-sm font-semibold leading-6">
+            Articles
+          </Link>
+          <Link href="/projects" className="text-sm font-semibold leading-6">
+            Projects
+          </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6">
