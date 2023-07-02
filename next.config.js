@@ -7,6 +7,11 @@ const nextConfig = {
         destination: 'https://sec.vt.edu/collin',
         permanent: true,
       },
+      {
+        source: '/resume',
+        destination: 'CollinDunphy_Resume.pdf',
+        permanent: true,
+      },
     ]
   },
 }
