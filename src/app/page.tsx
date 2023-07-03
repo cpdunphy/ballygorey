@@ -6,7 +6,7 @@ import WorkExperiences from '@/components/work-experience'
 export default function Page() {
   return (
     <>
-      <div className="flex-start mx-auto max-w-7xl flex-col space-y-6 p-6">
+      <div className="flex-start mx-auto max-w-7xl flex-col space-y-6 px-6">
         <Link href="/" passHref>
           <Image
             className="h-16 w-16 rounded-full border border-neutral-200 dark:border-neutral-700"
