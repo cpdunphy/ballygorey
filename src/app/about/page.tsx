@@ -1,5 +1,10 @@
 import Link from 'next/link'
 
+export const metadata = {
+  title: 'About',
+  description: 'Bio Page for Collin Dunphy',
+}
+
 export default function Page() {
   return (
     <p>

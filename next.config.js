@@ -9,7 +9,7 @@ const nextConfig = {
       },
       {
         source: '/resume',
-        destination: 'CollinDunphy_Resume.pdf',
+        destination: '/CollinDunphy_Resume.pdf',
         permanent: true,
       },
       {
