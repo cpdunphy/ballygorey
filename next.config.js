@@ -12,6 +12,11 @@ const nextConfig = {
         destination: 'CollinDunphy_Resume.pdf',
         permanent: true,
       },
+      {
+        source: '/calendar',
+        destination: 'https://fantastical.app/cpdunphy/general',
+        permanent: true,
+      },
     ]
   },
 }

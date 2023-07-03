@@ -54,7 +54,7 @@ function Work() {
 function DownloadResumeButton() {
   return (
     <Link
-      href="/resume"
+      href="/CollinDunphy_Resume.pdf"
       className="inline-flex items-center justify-center gap-x-2 rounded-md bg-teal-600 px-4 py-2 text-sm  hover:bg-teal-500"
       passHref
     >
