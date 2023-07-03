@@ -62,9 +62,9 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="light:bg-white dark:bg-black">
+    <header className="sticky top-0 z-50 bg-white/50 backdrop-blur-lg dark:bg-black/70">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -255,6 +255,7 @@ export default function Header() {
           </div>
         </Dialog.Panel>
       </Dialog>
+      <hr className="mb-6 border-gray-200 dark:border-gray-800 sm:mx-auto" />
     </header>
   )
 }
