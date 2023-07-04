@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import avatar from 'app/avatar.jpg'
 import WorkExperiences from '@/components/work-experience'
+import Socials from '@/components/socials'
 
 export default function Page() {
   return (
@@ -26,6 +27,9 @@ export default function Page() {
           Hey, I&apos;m Collin. 👋 I&apos;m a Junior majoring in Computer
           Science at Virginia Tech.
         </p>
+        <div className="">
+          <Socials />
+        </div>
         <WorkExperiences />
       </div>
     </>
