@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div>
+    <section>
       <h1>
         I’m Collin Dunphy. I’m a Junior majoring in Computer Science at Virginia
         Tech.
@@ -43,6 +43,6 @@ export default function Page() {
           engineering position starting in May of 2023.
         </p>
       </div>
-    </div>
+    </section>
   )
 }
