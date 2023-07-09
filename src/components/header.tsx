@@ -152,7 +152,7 @@ export default function Header() {
           </div>
         </Dialog.Panel>
       </Dialog>
-      <hr className="mb-6 border-gray-200 dark:border-gray-700 sm:mx-auto" />
+      <hr className="mb-6 border-gray-200 dark:border-gray-800 sm:mx-auto" />
     </header>
   )
 }
