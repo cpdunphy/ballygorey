@@ -115,7 +115,7 @@ export default function Socials() {
 
       {/* E-Mail Address */}
       <a
-        href="mailto:collin@ballygorey.com/"
+        href="mailto:collin@ballygorey.com"
         className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
       >
         <EnvelopeIcon className="h-5 w-5" />
