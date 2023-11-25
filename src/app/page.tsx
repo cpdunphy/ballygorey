@@ -15,7 +15,7 @@ export default function Page() {
             alt="Collin Dunphy headshot"
             height={64}
             width={64}
-            sizes="33vw"
+            sizes="128px"
           />
         </Link>
         <h1>Software engineer, amazing human, and amateur comedian.</h1>
