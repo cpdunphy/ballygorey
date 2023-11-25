@@ -21,9 +21,9 @@ export default function Page() {
         <h1>Software engineer, amazing human, and amateur comedian.</h1>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           I&apos;m Collin. I&apos;m a Junior majoring in Computer Science at
-          Virginia Tech. I&apos;m passionate about building software that makes
+          Virginia Tech. I&apos;m passionate about building amazing things make
           a difference in the world. I&apos;m currently looking for an
-          internship for Summer 2022.
+          internship for Summer 2023.
         </p>
         <Socials />
         <WorkExperiences />
