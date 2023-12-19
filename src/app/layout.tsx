@@ -20,12 +20,12 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="teal"></meta>
       </head>
-      <body>
-        <Header />
-        <main className="flex-start mx-auto max-w-7xl flex-col px-6">
-          {children}
-        </main>
-        <Footer />
+      <body className="flex h-full">
+        <div className='relative w-full flex-col'>
+          <Header />
+          <main className="flex-auto center">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   )

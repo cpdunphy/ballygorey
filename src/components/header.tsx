@@ -64,7 +64,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/50 backdrop-blur-lg dark:bg-black/70">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6"
+        className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
