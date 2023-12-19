@@ -64,7 +64,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/50 backdrop-blur-lg dark:bg-black/70">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4"
+        className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -91,8 +91,8 @@ export default function Header() {
           <Link href="/about" className="text-sm font-semibold leading-6">
             About
           </Link>
-          <Link href="/articles" className="text-sm font-semibold leading-6">
-            Articles
+          <Link href="/blog" className="text-sm font-semibold leading-6">
+            Blog
           </Link>
           <Link href="/projects" className="text-sm font-semibold leading-6">
             Projects
@@ -136,10 +136,10 @@ export default function Header() {
                   About
                 </Link>
                 <Link
-                  href="/articles"
+                  href="/blog"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-950"
                 >
-                  Articles
+                  Blog
                 </Link>
                 <Link
                   href="/projects"
