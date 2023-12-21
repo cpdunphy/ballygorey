@@ -1,6 +1,7 @@
 'use client'
 import { Fragment, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
   ArrowPathIcon,
@@ -16,6 +17,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from '@heroicons/react/20/solid'
+import logo from 'app/logo.png'
 
 const products = [
   {
@@ -64,16 +66,19 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/50 backdrop-blur-lg dark:bg-black/70">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4"
+        className='mx-auto max-w-7xl items-center justify-between px-6 py-4 lg flex'
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5" passHref>
             <span className="sr-only">Your Company</span>
-            <img
+            <Image
               className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
+              src={logo}
+              alt="Logo"
+              sizes='128px'
+              width={32}
+              height={32}
             />
           </Link>
         </div>
@@ -111,10 +116,13 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+              <Image
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
+                src={logo}
+                alt="Logo"
+                sizes='128px'
+                width={32}
+                height={32}
               />
             </a>
             <button
