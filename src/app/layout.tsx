@@ -1,6 +1,7 @@
 import './globals.css'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import { analytics } from '../lib/firebase'
 
 export const metadata = {
   title: {
@@ -21,7 +22,7 @@ export default function RootLayout({
         <meta name="theme-color" content="teal"></meta>
       </head>
       <body className="flex h-full">
-        <div className='relative w-full flex-col'>
+        <div className="relative w-full flex-col">
           <Header />
           <main className="flex-auto center">{children}</main>
           <Footer />
