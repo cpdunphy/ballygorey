@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <section>
       <h1>
-        I’m Collin Dunphy. I’m a Junior majoring in Computer Science at Virginia
+        I’m Collin Dunphy. I’m a Senior majoring in Computer Science at Virginia
         Tech.
       </h1>
       <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">

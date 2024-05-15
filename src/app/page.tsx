@@ -14,7 +14,7 @@ export default function Page() {
   ]
 
   return (
-    <div className='space-y-6'>
+    <div className="space-y-6">
       <section>
         <Link href="/" passHref className="h-16 w-16">
           <Image
@@ -28,10 +28,10 @@ export default function Page() {
         </Link>
         <h1>Software engineer, amazing human, and comedian in training.</h1>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400 max-w-2xl">
-          I&apos;m Collin. I&apos;m a Junior majoring in Computer Science at
-          Virginia Tech. I&apos;m passionate about building amazing things make
-          a difference in the world. I&apos;m currently looking for an
-          internship for Summer 2023.
+          I&apos;m Collin. I&apos;m a Senior majoring in Computer Science at
+          Virginia Tech. I&apos;m passionate about building amazing things that
+          make a difference in the world. I&apos;m currently looking for an
+          full-time roles starting Summer 2024.
         </p>
         <Socials />
       </section>
@@ -50,7 +50,9 @@ export default function Page() {
                 alt="Graduation 2023"
                 width={3000}
                 height={2000}
-                sizes='(min-width: 640px) 18rem, 11rem'
+                // placeholder='blur'
+                sizes="(min-width: 640px) 18rem, 11rem"
+                // blurDataURL='base64'
               />
             </div>
           ))}
