@@ -1,8 +1,8 @@
 'use client'
-import { Fragment, useState } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
+import { Dialog, Popover } from '@headlessui/react'
 import {
   ArrowPathIcon,
   Bars3Icon,
@@ -12,11 +12,7 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from '@heroicons/react/20/solid'
+import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import logo from 'app/logo.png'
 
 const products = [
@@ -66,7 +62,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/50 backdrop-blur-lg dark:bg-black/70">
       <nav
-        className='mx-auto max-w-7xl items-center justify-between px-6 py-4 lg flex'
+        className="mx-auto max-w-7xl items-center justify-between px-6 py-4 lg flex"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -76,7 +72,7 @@ export default function Header() {
               className="h-8 w-auto"
               src={logo}
               alt="Logo"
-              sizes='128px'
+              sizes="128px"
               width={32}
               height={32}
             />
@@ -123,7 +119,7 @@ export default function Header() {
                 className="h-8 w-auto"
                 src={logo}
                 alt="Logo"
-                sizes='128px'
+                sizes="128px"
                 width={32}
                 height={32}
               />
