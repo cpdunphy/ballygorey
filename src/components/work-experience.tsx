@@ -69,8 +69,8 @@ const workExperiences = [
   },
   {
     company: "Student Engineers' Council at Virginia Tech",
-    title: 'Director of Finance',
-    startDate: '2021-09-05',
+    title: 'President',
+    startDate: '2021-09-22',
     endDate: 'Present',
     location: 'Blacksburg, VA',
     description: 'A software development company.',
