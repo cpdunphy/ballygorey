@@ -1,7 +1,10 @@
+'use client'
 import { ArrowDownTrayIcon } from '@heroicons/react/24/outline'
 import { BriefcaseIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 import Link from 'next/link'
+import { logEvent } from 'firebase/analytics'
+import { analytics } from '../lib/firebase'
 
 export default function WorkExperiences() {
   return (
@@ -36,9 +39,29 @@ export default function WorkExperiences() {
           </Link>
         ))}
       </div>
+      <div>
+        <p className="text-gray-500">
+          {process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN}
+        </p>
+      </div>
+      <MyComponent />
       <DownloadResumeButton />
     </div>
   )
+}
+
+const MyComponent = () => {
+  const handleClick = () => {
+    if (analytics) {
+      logEvent(analytics, 'button_click', {
+        button_name: 'my_button',
+      })
+    } else {
+      console.warn('Analytics is not initialized')
+    }
+  }
+
+  return <button onClick={handleClick}>Click me</button>
 }
 
 function DownloadResumeButton() {
