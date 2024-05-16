@@ -37,11 +37,6 @@ export default function WorkExperiences() {
           </Link>
         ))}
       </div>
-      <div>
-        <p className="text-gray-500">
-          {process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN}
-        </p>
-      </div>
       <DownloadResumeButton />
     </div>
   )
