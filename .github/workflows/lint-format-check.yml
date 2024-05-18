@@ -29,4 +29,4 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git diff --quiet || git commit -m "style: format code with Prettier" && git push
+          git diff || git commit -m "style: format code with Prettier" && git push
