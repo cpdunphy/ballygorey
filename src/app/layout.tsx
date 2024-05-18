@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className="flex h-full">
         <div className="relative w-full flex-col">
           <Header />
-          <main className="flex-auto center">{children}</main>
+          <main className="center flex-auto">{children}</main>
           <Footer />
         </div>
       </body>

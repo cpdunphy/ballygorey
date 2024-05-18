@@ -62,7 +62,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/50 backdrop-blur-lg dark:bg-black/70">
       <nav
-        className="mx-auto max-w-7xl items-center justify-between px-6 py-4 lg flex"
+        className="lg mx-auto flex max-w-7xl items-center justify-between px-6 py-4"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -111,7 +111,7 @@ export default function Header() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 dark:bg-black sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:bg-black">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -165,7 +165,7 @@ export default function Header() {
           </div>
         </Dialog.Panel>
       </Dialog>
-      <hr className="mb-6 border-gray-200 dark:border-gray-800 sm:mx-auto" />
+      <hr className="mb-6 border-gray-200 sm:mx-auto dark:border-gray-800" />
     </header>
   )
 }

@@ -27,7 +27,7 @@ export default function Page() {
           />
         </Link>
         <h1>Software engineer, amazing human, and comedian in training.</h1>
-        <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400 max-w-2xl">
+        <p className="mt-6 max-w-2xl text-base text-zinc-600 dark:text-zinc-400">
           I&apos;m Collin. I&apos;m a Senior majoring in Computer Science at
           Virginia Tech. I&apos;m passionate about building amazing things that
           make a difference in the world. I&apos;m currently looking for an
@@ -36,13 +36,13 @@ export default function Page() {
         <Socials />
       </section>
       <div>
-        <div className="-my-4 flex justify-center gap-5 py-4 sm:gap-8 overflow-hidden">
+        <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
           {images.map((imagePath, index) => (
             <div
               key={imagePath}
               className={`${
                 index % 2 === 0 ? 'rotate-2' : '-rotate-2'
-              } relative aspect-[10/9] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl`}
+              } relative aspect-[10/9] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800`}
             >
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
