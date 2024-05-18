@@ -1,0 +1,37 @@
+[
+  {
+    "title": "DDK: Diadochokinetic Assess",
+    "description": "A simple, intuitive diagnostic tool that’s designed by and built for Speech Language Pathologists (SLPs)",
+    "imagePath": "/images/ddk.png",
+    "url": "https://github.com/cpdunphy/DDK-Assess",
+    "tags": ["apple", "swift", "firebase"]
+  },
+  {
+    "title": "CVHS Wildcats",
+    "description": "An up to date, live calendar to tell you what classes to join at different points of the day. A customizable course schedule updated in real time across all devices.",
+    "imagePath": "/images/wildcats.png",
+    "url": "https://github.com/cpdunphy/Wildcats",
+    "tags": ["apple", "swift", "firebase"]
+  },
+  {
+    "title": "Ballygorey.com",
+    "description": "This website! A personal website to showcase my work and projects.",
+    "imagePath": "/images/ballygorey.png",
+    "url": "https://github.com/cpdunphy/ballygorey",
+    "tags": ["nextjs", "tailwindcss", "typescript"]
+  },
+  {
+    "title": "Research: CS Genome Project",
+    "description": "I am involved with the Computer Systems Genome Project at Virginia Tech. CSG is the first scientific effort to catalog the lineage of computer system performance over time. My contributions to the team are Hidden Figures and Crowdsourcing features.",
+    "imagePath": "/images/csgenome.jpg",
+    "url": "https://csgenome.org",
+    "tags": ["api", "devops", "outreach"]
+  },
+  {
+    "title": "E-Ball Check In",
+    "description": "Scan ticekts to check attendees into E-Ball, a formal dance hosted by the Virginia Tech Student Engineers' Council.",
+    "imagePath": "/images/eball-tickets.jpg",
+    "url": "https://github.com/SECatVT/E-Ball-Tickets",
+    "tags": ["api", "devops", "outreach"]
+  }
+]

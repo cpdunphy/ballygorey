@@ -3,6 +3,7 @@ import { ArrowDownTrayIcon } from '@heroicons/react/24/outline'
 import { BriefcaseIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 import Link from 'next/link'
+import workExperiences from '@/data/workExperiences.json'
 
 export default function WorkExperiences() {
   return (
@@ -56,46 +57,3 @@ function DownloadResumeButton() {
     </Link>
   )
 }
-
-const workExperiences = [
-  {
-    company: 'Tenable',
-    title: 'Research Engineer Intern',
-    startDate: '2023-06-05',
-    endDate: '2023-08-04',
-    location: 'Columbia, MD',
-    description: 'A software development company.',
-    imagePath: '/images/tenable.jpeg',
-    link: 'https://tenable.com',
-  },
-  {
-    company: "Student Engineers' Council at Virginia Tech",
-    title: 'President',
-    startDate: '2021-09-22',
-    endDate: 'Present',
-    location: 'Blacksburg, VA',
-    description: 'A software development company.',
-    imagePath: '/images/secatvt.png',
-    link: 'https://sec.vt.edu',
-  },
-  {
-    company: 'Virginia Tech',
-    title: 'Undergraduate Research Assistant',
-    startDate: '2020-01-01',
-    endDate: '2021-01-01',
-    location: 'Blacksburg, VA',
-    description: 'A software development company.',
-    imagePath: '/images/virginiatech.jpeg',
-    link: 'https://cs.vt.edu',
-  },
-  {
-    company: 'NeuroID',
-    title: 'Software Engineer Intern',
-    startDate: '2022-07-01',
-    endDate: '2022-08-05',
-    location: 'Clifton, VA',
-    description: 'A software development company.',
-    imagePath: '/images/neuroid.jpeg',
-    link: 'https://neuro-id.com',
-  },
-]
