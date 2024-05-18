@@ -15,20 +15,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
-let analytics: Analytics | null = null;
 
-if (typeof window !== 'undefined') {
-  isSupported().then((supported) => {
-    if (supported) {
-      analytics = getAnalytics(app);
-      console.log('Analytics initialized');
-    } else {
-      console.log('Analytics not supported');
-    }
-  }).catch((error) => {
-    console.error('Error checking analytics support:', error);
-  });
-}
-
-
-export { app, analytics }
+export { app }
