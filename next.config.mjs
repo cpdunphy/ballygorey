@@ -1,6 +1,9 @@
+import createMDX from '@next/mdx'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async redirects() {
+  pageExtensions: ['tsx', 'mdx'],
+  redirects: async () => {
     return [
       {
         source: '/secatvt',
@@ -21,4 +24,8 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+const withMDX = createMDX({
+  // Add any MDX options here
+})
+
+export default withMDX(nextConfig)
