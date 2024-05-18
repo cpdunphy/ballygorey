@@ -1,4 +1,5 @@
 *.css
 *.svg
 *.ico
-*.css
+.next
+node_modules
