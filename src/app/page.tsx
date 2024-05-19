@@ -19,7 +19,7 @@ export default function Page() {
         <Link href="/" passHref className="h-16 w-16">
           <Image
             className="h-16 w-16 rounded-full border border-neutral-200 object-cover dark:border-neutral-700"
-            src={avatar}
+            src="/images/avatar.jpg"
             alt="Collin Dunphy headshot"
             height={64}
             width={64}
@@ -50,9 +50,7 @@ export default function Page() {
                 alt="Graduation 2023"
                 width={3000}
                 height={2000}
-                // placeholder='blur'
                 sizes="(min-width: 640px) 18rem, 11rem"
-                // blurDataURL='base64'
               />
             </div>
           ))}

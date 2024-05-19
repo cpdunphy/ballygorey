@@ -13,7 +13,8 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-import logo from 'app/logo.png'
+
+const logo = '/images/logo.png'
 
 const products = [
   {
