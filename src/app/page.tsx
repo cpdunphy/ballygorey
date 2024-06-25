@@ -26,12 +26,12 @@ export default function Page() {
             sizes="128px"
           />
         </Link>
-        <h1>Software engineer, amazing human, and comedian in training.</h1>
+        <h1>Software Engineer, Aspiring Comedian, and Enthusiastic Learner</h1>
         <p className="mt-6 max-w-2xl text-base text-zinc-600 dark:text-zinc-400">
-          I&apos;m Collin. I&apos;m a Senior majoring in Computer Science at
-          Virginia Tech. I&apos;m passionate about building amazing things that
-          make a difference in the world. I&apos;m currently looking for an
-          full-time roles starting Summer 2024.
+          I&apos;m Collin, a Senior majoring in Computer Science at Virginia
+          Tech. I&apos;m passionate about creating impactful solutions and
+          making a positive difference in the world. I&apos;m actively seeking
+          full-time opportunities starting Summer 2024.
         </p>
         <Socials />
       </section>
