@@ -29,7 +29,7 @@
   },
   {
     "title": "E-Ball Check In",
-    "description": "Scan ticekts to check attendees into E-Ball, a formal dance hosted by the Virginia Tech Student Engineers' Council.",
+    "description": "Custom ticket management system and check-in system for the SEC Engineers' Ball, a formal dance hosted by the Virginia Tech Student Engineers' Council.",
     "imagePath": "/images/eball-tickets.jpg",
     "url": "https://github.com/SECatVT/E-Ball-Tickets",
     "tags": ["api", "devops", "outreach"]
