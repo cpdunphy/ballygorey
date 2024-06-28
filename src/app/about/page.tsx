@@ -32,10 +32,10 @@ export default function Page() {
       </div>
 
       <div>
-        <h2>Technical Skills</h2>
+        <h3>Technical Skills</h3>
         Swift (iOS), Flutter, React, Java, Python, AWS, Google Firebase, 3D
         Prototyping, Robotics Design, CAD.
-        <h2>Skills</h2>
+        <h3>Skills</h3>
         Leadership, Public Speaking, Team Management, Project Management, Event
         Planning, Marketing, Fundraising, and Community Outreach, Strategic
         Planning, and Problem-Solving

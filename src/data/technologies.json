@@ -1,0 +1,68 @@
+[
+  {
+    "id": "git",
+    "name": "Git",
+    "imagePath": "/images/technologies/git.svg",
+    "url": "https://git-scm.com/"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "imagePath": "/images/technologies/firebase.svg",
+    "url": "https://firebase.google.com/"
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "imagePath": "/images/technologies/react.svg",
+    "url": "https://reactjs.org/"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "imagePath": "/images/technologies/shopify.svg",
+    "url": "https://www.shopify.com/"
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind",
+    "imagePath": "/images/technologies/tailwind.svg",
+    "url": "https://tailwindcss.com/"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "imagePath": "/images/technologies/stripe.svg",
+    "url": "https://stripe.com"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "imagePath": "/images/technologies/docker.svg",
+    "url": "https://www.docker.com/"
+  },
+  {
+    "id": "next",
+    "name": "Next.js",
+    "imagePath": "/images/technologies/next.svg",
+    "url": "https://nextjs.org/"
+  },
+  {
+    "id": "ramp",
+    "name": "Ramp",
+    "imagePath": "/images/technologies/ramp.svg",
+    "url": "https://ramp.com/"
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "imagePath": "/images/technologies/swift.svg",
+    "url": "https://developer.apple.com/swift/"
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "imagePath": "/images/technologies/slack.svg",
+    "url": "https://slack.com/"
+  }
+]
