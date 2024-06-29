@@ -14,6 +14,7 @@ const technologies = [
   'docker',
   'next',
   'ramp',
+  'figma',
 ]
 
 export default function Demo() {

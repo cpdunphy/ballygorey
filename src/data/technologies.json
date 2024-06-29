@@ -64,5 +64,11 @@
     "name": "Slack",
     "imagePath": "/images/technologies/slack.svg",
     "url": "https://slack.com/"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "imagePath": "/images/technologies/figma.svg",
+    "url": "https://www.figma.com/"
   }
 ]
