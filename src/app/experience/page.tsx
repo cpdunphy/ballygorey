@@ -39,12 +39,12 @@ export default function Demo() {
                 href={item.url}
                 target="_blank"
               >
-                <div className="flex flex-grow items-center justify-center">
+                <div className="relative flex h-full max-h-12 w-full max-w-12">
                   <Image
                     src={item.imagePath}
-                    alt={item.name}
-                    width={48}
-                    height={48}
+                    alt={`${item.imagePath} Logo`}
+                    className="object-contain"
+                    fill
                     sizes="48px"
                   />
                 </div>
