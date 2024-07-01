@@ -15,6 +15,7 @@ const technologies = [
   'next',
   'ramp',
   'figma',
+  'python',
 ]
 
 export default function Demo() {
@@ -48,9 +49,9 @@ export default function Demo() {
                     sizes="48px"
                   />
                 </div>
-                <h3 className="pt-4 text-center tracking-wide dark:text-slate-200">
+                <p className="pt-4 text-center tracking-wide dark:text-slate-200">
                   {item.name}
-                </h3>
+                </p>
               </Link>
             )
           })}

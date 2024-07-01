@@ -70,5 +70,11 @@
     "name": "Figma",
     "imagePath": "/images/technologies/figma.svg",
     "url": "https://www.figma.com/"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "imagePath": "/images/technologies/python.svg",
+    "url": "https://python.org"
   }
 ]
