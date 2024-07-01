@@ -42,15 +42,18 @@ export default function Demo() {
 
           return (
             <div key={item.company}>
-              <h3>
-                {item.role} @ {item.company}
+              <h3 className="pb-1">
+                {item.role} @{' '}
+                <Link href={item.link} className="hover:text-teal-500">
+                  {item.company}
+                </Link>
               </h3>
 
-              <p className="text-sm">
+              <p className="pb-1 text-sm">
                 {startDate} — {endDate}
               </p>
 
-              <p>{item.description}</p>
+              <p className="pb-1">{item.description}</p>
 
               {/* Skills */}
               <div className="flex flex-wrap gap-x-2">
@@ -61,7 +64,18 @@ export default function Demo() {
                   if (!skill) return null
                   return (
                     <Chip key={skill_key} color={skill.color}>
-                      {skill.name}
+                      <div className="flex items-center space-x-4">
+                        <div className="relative mr-2 flex h-3 w-3 items-center">
+                          <Image
+                            src={skill.imagePath}
+                            alt={`${skill.name} Logo`}
+                            className="object-contain"
+                            fill
+                            sizes="12px"
+                          />
+                        </div>
+                        {skill.name}
+                      </div>
                     </Chip>
                   )
                 })}
@@ -92,7 +106,7 @@ export default function Demo() {
                 <div className="relative flex h-full max-h-12 w-full max-w-12">
                   <Image
                     src={item.imagePath}
-                    alt={`${item.imagePath} Logo`}
+                    alt={`${item.name} Logo`}
                     className="object-contain"
                     fill
                     sizes="48px"
