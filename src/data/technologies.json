@@ -3,42 +3,49 @@
     "id": "git",
     "name": "Git",
     "imagePath": "/images/technologies/git.svg",
+    "color": "#F05133",
     "url": "https://git-scm.com/"
   },
   {
     "id": "firebase",
     "name": "Firebase",
     "imagePath": "/images/technologies/firebase.svg",
+    "color": "#FF9100",
     "url": "https://firebase.google.com/"
   },
   {
     "id": "react",
     "name": "React",
     "imagePath": "/images/technologies/react.svg",
+    "color": "#61dafb",
     "url": "https://reactjs.org/"
   },
   {
     "id": "shopify",
     "name": "Shopify",
     "imagePath": "/images/technologies/shopify.svg",
+    "color": "#95BF47",
     "url": "https://www.shopify.com/"
   },
   {
     "id": "tailwind",
     "name": "Tailwind",
     "imagePath": "/images/technologies/tailwind.svg",
+    "color": "#38bdf8",
     "url": "https://tailwindcss.com/"
   },
   {
     "id": "stripe",
     "name": "Stripe",
     "imagePath": "/images/technologies/stripe.svg",
+    "color": "#635bff",
     "url": "https://stripe.com"
   },
   {
     "id": "docker",
     "name": "Docker",
     "imagePath": "/images/technologies/docker.svg",
+    "color": "#1d63ed",
     "url": "https://www.docker.com/"
   },
   {
@@ -51,12 +58,14 @@
     "id": "ramp",
     "name": "Ramp",
     "imagePath": "/images/technologies/ramp.svg",
+    "color": "#E4F223",
     "url": "https://ramp.com/"
   },
   {
     "id": "swift",
     "name": "Swift",
     "imagePath": "/images/technologies/swift.svg",
+    "color": "#F05138",
     "url": "https://developer.apple.com/swift/"
   },
   {
@@ -75,6 +84,7 @@
     "id": "python",
     "name": "Python",
     "imagePath": "/images/technologies/python.svg",
+    "color": "#5a9fd4",
     "url": "https://python.org"
   }
 ]

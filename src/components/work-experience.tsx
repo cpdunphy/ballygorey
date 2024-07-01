@@ -48,7 +48,7 @@ export default function WorkExperiences() {
             </div>
             <div>
               <div className="w-full">{item.company}</div>
-              <div className="text-gray-500">{item.title}</div>
+              <div className="text-gray-500">{item.role}</div>
             </div>
           </Link>
         ))}

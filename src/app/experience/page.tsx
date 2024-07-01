@@ -1,5 +1,7 @@
+import Badge from '@/components/badge'
 import WorkExperiences from '@/components/work-experience'
 import tech from '@/data/technologies.json'
+import experiences from '@/data/workExperiences.json'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -22,7 +24,40 @@ export default function Demo() {
   return (
     <>
       <h1>Work Experience</h1>
-      <WorkExperiences />
+      <div>
+        {experiences.map((item) => {
+          return (
+            <div key={item.company}>
+              <h3>
+                {item.role} @ {item.company}
+              </h3>
+
+              <p className="text-sm">
+                {item.startDate} to {item.endDate ?? 'Present'}
+              </p>
+
+              <p>{item.description}</p>
+
+              {/* Skills */}
+              <div className="flex flex-wrap gap-x-2">
+                {item.skills.map((skill_key) => {
+                  const skill = tech.find(
+                    (technology) => technology.id === skill_key
+                  )
+                  if (!skill) return null
+                  return (
+                    <Badge key={skill_key} color={skill.color}>
+                      {skill.name}
+                    </Badge>
+                  )
+                })}
+              </div>
+
+              <hr className="my-4 border-gray-200 sm:mx-auto lg:my-6 dark:border-gray-800" />
+            </div>
+          )
+        })}
+      </div>
 
       <div className="lg:items-centerw flex flex-col lg:flex-row">
         <h2 className="mb-4 text-balance lg:mb-0 lg:mr-8 lg:flex lg:w-1/4 lg:items-center">
