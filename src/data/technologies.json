@@ -4,6 +4,7 @@
     "name": "Git",
     "imagePath": "/images/technologies/git.svg",
     "color": "#F05133",
+    "type": "developer",
     "url": "https://git-scm.com/"
   },
   {
@@ -11,6 +12,7 @@
     "name": "Firebase",
     "imagePath": "/images/technologies/firebase.svg",
     "color": "#FF9100",
+    "type": "developer",
     "url": "https://firebase.google.com/"
   },
   {
@@ -18,6 +20,7 @@
     "name": "React",
     "imagePath": "/images/technologies/react.svg",
     "color": "#61dafb",
+    "type": "developer",
     "url": "https://reactjs.org/"
   },
   {
@@ -25,6 +28,7 @@
     "name": "Shopify",
     "imagePath": "/images/technologies/shopify.svg",
     "color": "#95BF47",
+    "type": "business",
     "url": "https://www.shopify.com/"
   },
   {
@@ -32,6 +36,7 @@
     "name": "Tailwind",
     "imagePath": "/images/technologies/tailwind.svg",
     "color": "#38bdf8",
+    "type": "developer",
     "url": "https://tailwindcss.com/"
   },
   {
@@ -39,6 +44,7 @@
     "name": "Stripe",
     "imagePath": "/images/technologies/stripe.svg",
     "color": "#635bff",
+    "type": "business",
     "url": "https://stripe.com"
   },
   {
@@ -46,12 +52,14 @@
     "name": "Docker",
     "imagePath": "/images/technologies/docker.svg",
     "color": "#1d63ed",
+    "type": "developer",
     "url": "https://www.docker.com/"
   },
   {
     "id": "nextjs",
     "name": "Next.js",
     "imagePath": "/images/technologies/next.svg",
+    "type": "developer",
     "url": "https://nextjs.org/"
   },
   {
@@ -59,6 +67,7 @@
     "name": "Ramp",
     "imagePath": "/images/technologies/ramp.svg",
     "color": "#E4F223",
+    "type": "business",
     "url": "https://ramp.com/"
   },
   {
@@ -66,12 +75,14 @@
     "name": "Swift",
     "imagePath": "/images/technologies/swift.svg",
     "color": "#F05138",
+    "type": "developer",
     "url": "https://developer.apple.com/swift/"
   },
   {
     "id": "slack",
     "name": "Slack",
     "imagePath": "/images/technologies/slack.svg",
+    "type": "business",
     "url": "https://slack.com/"
   },
   {
@@ -79,6 +90,7 @@
     "name": "Figma",
     "imagePath": "/images/technologies/figma.svg",
     "color": "#985DF6",
+    "type": "developer",
     "url": "https://www.figma.com/"
   },
   {
@@ -86,6 +98,7 @@
     "name": "Python",
     "imagePath": "/images/technologies/python.svg",
     "color": "#5a9fd4",
+    "type": "developer",
     "url": "https://python.org"
   }
 ]
