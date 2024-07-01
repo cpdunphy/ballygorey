@@ -49,7 +49,7 @@
     "url": "https://www.docker.com/"
   },
   {
-    "id": "next",
+    "id": "nextjs",
     "name": "Next.js",
     "imagePath": "/images/technologies/next.svg",
     "url": "https://nextjs.org/"
@@ -78,6 +78,7 @@
     "id": "figma",
     "name": "Figma",
     "imagePath": "/images/technologies/figma.svg",
+    "color": "#985DF6",
     "url": "https://www.figma.com/"
   },
   {

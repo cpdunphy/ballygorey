@@ -1,4 +1,4 @@
-import Badge from '@/components/badge'
+import Chip from '@/components/chip'
 import WorkExperiences from '@/components/work-experience'
 import tech from '@/data/technologies.json'
 import experiences from '@/data/workExperiences.json'
@@ -14,7 +14,7 @@ const technologies = [
   'tailwind',
   'stripe',
   'docker',
-  'next',
+  'nextjs',
   'ramp',
   'figma',
   'python',
@@ -60,9 +60,9 @@ export default function Demo() {
                   )
                   if (!skill) return null
                   return (
-                    <Badge key={skill_key} color={skill.color}>
+                    <Chip key={skill_key} color={skill.color}>
                       {skill.name}
-                    </Badge>
+                    </Chip>
                   )
                 })}
               </div>

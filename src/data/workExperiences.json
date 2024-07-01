@@ -41,7 +41,7 @@
     "description": "Served as a front-end developer for the Computer Systems Genome Project where I implemented crowdsourcing features and an intuitive user experience.",
     "imagePath": "/images/virginiatech.jpeg",
     "link": "https://cs.vt.edu",
-    "skills": ["react", "docker", "swift", "figma", "git", "next"]
+    "skills": ["react", "docker", "swift", "figma", "git", "nextjs"]
   },
   {
     "company": "NeuroID",
@@ -52,6 +52,6 @@
     "description": "Implemented key SDK enhancements to interact with client devices to improve fraud detection.",
     "imagePath": "/images/neuroid.jpeg",
     "link": "https://neuro-id.com",
-    "skills": ["git", "swift"]
+    "skills": ["swift", "git"]
   }
 ]
