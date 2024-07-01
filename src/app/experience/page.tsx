@@ -21,11 +21,25 @@ const technologies = [
 ]
 
 export default function Demo() {
+  function formatDateString(dateString: string) {
+    const date = new Date(dateString)
+    const options: Intl.DateTimeFormatOptions = {
+      year: 'numeric',
+      month: 'long',
+    }
+    return date.toLocaleDateString('en-US', options)
+  }
+
   return (
     <>
       <h1>Work Experience</h1>
       <div>
         {experiences.map((item) => {
+          const startDate = formatDateString(item.startDate)
+          const endDate = item.endDate
+            ? formatDateString(item.endDate)
+            : 'Present'
+
           return (
             <div key={item.company}>
               <h3>
@@ -33,7 +47,7 @@ export default function Demo() {
               </h3>
 
               <p className="text-sm">
-                {item.startDate} to {item.endDate ?? 'Present'}
+                {startDate} — {endDate}
               </p>
 
               <p>{item.description}</p>
