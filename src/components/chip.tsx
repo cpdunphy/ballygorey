@@ -22,15 +22,7 @@ export default function Badge({ color, children }: BadgeProps) {
     return `rgba(${r}, ${g}, ${b}, ${opacity})`
   }
 
-  function getLightAndDarkVariants(hex: string): [string, string] {
-    const lightVariant = adjustBrightness(hex, 30, 0.2) // Increase brightness by 30%
-    const darkVariant = adjustBrightness(hex, -20, 1.0) // Decrease brightness by 30%
-    return [lightVariant, darkVariant]
-  }
-
-  const [lightVariant, darkVariant] = color
-    ? getLightAndDarkVariants(color)
-    : []
+  const lightVariant: string = color ? adjustBrightness(color, 30, 0.2) : ''
 
   return (
     <div
