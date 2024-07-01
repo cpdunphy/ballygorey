@@ -31,7 +31,7 @@ export default function WorkExperiences() {
         {workExperiences.map((item) => (
           <Link
             key={item.company}
-            href={item.link}
+            href={item.url}
             target="_blank"
             passHref
             className="flex items-center gap-4 space-y-0"
