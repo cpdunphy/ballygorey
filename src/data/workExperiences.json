@@ -3,23 +3,34 @@
     "company": "Deloitte",
     "role": "Software Engineer Intern",
     "startDate": "2024-05-28",
-    "currentlyWorking": true,
+    "endDate": null,
     "location": "Tysons, VA",
     "description": "Helped build internal LLM app, working on the API and front-end.",
     "imagePath": "/images/deloitte.png",
-    "link": "https://www2.deloitte.com/us/en.html",
+    "url": "https://www2.deloitte.com/us/en.html",
     "skills": ["react", "git"]
   },
   {
     "company": "Student Engineers' Council at Virginia Tech",
     "role": "President",
     "startDate": "2021-09-22",
-    "currentlyWorking": true,
+    "endDate": null,
     "location": "Blacksburg, VA",
     "description": "Served as a board member and leader of a 501(c)(3) nonprofit with $1M in annual income.",
     "imagePath": "/images/secatvt.png",
-    "link": "https://sec.vt.edu",
+    "url": "https://sec.vt.edu",
     "skills": ["figma", "swift", "shopify", "stripe", "ramp"]
+  },
+  {
+    "company": "Virginia Tech",
+    "role": "Undergraduate Research Assistant",
+    "startDate": "2023-01-17",
+    "endDate": null,
+    "location": "Blacksburg, VA",
+    "description": "Served as a front-end developer for the Computer Systems Genome Project where I implemented crowdsourcing features and an intuitive user experience.",
+    "imagePath": "/images/virginiatech.jpeg",
+    "url": "https://cs.vt.edu",
+    "skills": ["react", "docker", "swift", "figma", "git", "nextjs"]
   },
   {
     "company": "Tenable",
@@ -29,19 +40,8 @@
     "location": "Columbia, MD",
     "description": "Developed an API to expand logging from production jobs to simplify & accelerate troubleshooting.",
     "imagePath": "/images/tenable.jpeg",
-    "link": "https://tenable.com",
+    "url": "https://tenable.com",
     "skills": ["python", "docker"]
-  },
-  {
-    "company": "Virginia Tech",
-    "role": "Undergraduate Research Assistant",
-    "startDate": "2023-01-17",
-    "currentlyWorking": true,
-    "location": "Blacksburg, VA",
-    "description": "Served as a front-end developer for the Computer Systems Genome Project where I implemented crowdsourcing features and an intuitive user experience.",
-    "imagePath": "/images/virginiatech.jpeg",
-    "link": "https://cs.vt.edu",
-    "skills": ["react", "docker", "swift", "figma", "git", "nextjs"]
   },
   {
     "company": "NeuroID",
@@ -51,7 +51,7 @@
     "location": "Clifton, VA",
     "description": "Implemented key SDK enhancements to interact with client devices to improve fraud detection.",
     "imagePath": "/images/neuroid.jpeg",
-    "link": "https://neuro-id.com",
+    "url": "https://neuro-id.com",
     "skills": ["swift", "git"]
   }
 ]

@@ -44,7 +44,7 @@ export default function Demo() {
             <div key={item.company}>
               <h3 className="pb-1">
                 {item.role} @{' '}
-                <Link href={item.link} className="hover:text-teal-500">
+                <Link href={item.url} className="hover:text-teal-500">
                   {item.company}
                 </Link>
               </h3>
