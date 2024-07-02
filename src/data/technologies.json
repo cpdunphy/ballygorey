@@ -45,7 +45,7 @@
     "imagePath": "/images/technologies/flask.svg",
     "color": "#5DA9C0",
     "type": "developer",
-    "url": "https://www.figma.com/"
+    "url": "https://flask.palletsprojects.com/en/3.0.x/"
   },
   {
     "id": "firebase",
