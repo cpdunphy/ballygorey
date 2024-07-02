@@ -1,6 +1,6 @@
 import Chip from '@/components/chip'
 import WorkExperiences from '@/components/work-experience'
-import tech from '@/data/technologies.json'
+import technology from '@/data/technologies.json'
 import experiences from '@/data/workExperiences.json'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,16 +8,16 @@ import Link from 'next/link'
 const technologies = [
   'react',
   'swift',
-  'git',
+  'ts',
   'firebase',
-  'shopify',
-  'tailwind',
-  'stripe',
   'docker',
+  'tailwind',
   'nextjs',
-  'ramp',
   'figma',
   'python',
+  'ansible',
+  'flask',
+  'git',
 ]
 
 export default function Demo() {
@@ -58,9 +58,7 @@ export default function Demo() {
               {/* Skills */}
               <div className="flex flex-wrap gap-x-2">
                 {item.skills.map((skill_key) => {
-                  const skill = tech.find(
-                    (technology) => technology.id === skill_key
-                  )
+                  const skill = technology.find((tech) => tech.id === skill_key)
                   if (!skill) return null
                   return (
                     <Chip key={skill_key} color={skill.color}>
@@ -92,28 +90,28 @@ export default function Demo() {
           Using an ever-growing list of technology.
         </h2>
         <div className="grid flex-1 auto-rows-fr grid-cols-[repeat(auto-fit,_minmax(125px,_1fr))] gap-4">
-          {technologies.map((key: string) => {
-            const item = tech.find((technology) => technology.id === key)
-            if (!item) return null
+          {technologies.map((key) => {
+            const skill = technology.find((tech) => tech.id === key)
+            if (!skill) return null
             return (
               <Link
                 className="group relative flex min-h-32 flex-col items-center justify-between rounded-lg bg-zinc-50 p-4 transition ease-in-out hover:bg-zinc-100 dark:bg-zinc-900/70 dark:hover:bg-zinc-800/70"
-                key={item.name}
+                key={skill.name}
                 passHref
-                href={item.url}
+                href={skill.url}
                 target="_blank"
               >
                 <div className="relative flex h-full max-h-12 w-full max-w-12">
                   <Image
-                    src={item.imagePath}
-                    alt={`${item.name} Logo`}
+                    src={skill.imagePath}
+                    alt={`${skill.name} Logo`}
                     className="object-contain"
                     fill
                     sizes="48px"
                   />
                 </div>
                 <p className="pt-4 text-center tracking-wide dark:text-slate-200">
-                  {item.name}
+                  {skill.name}
                 </p>
               </Link>
             )
