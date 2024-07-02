@@ -8,7 +8,7 @@
     "description": "Helped build internal LLM app, working on the API and front-end.",
     "imagePath": "/images/deloitte.png",
     "url": "https://www2.deloitte.com/us/en.html",
-    "skills": ["react", "git"]
+    "skills": ["react", "js", "mui", "git"]
   },
   {
     "company": "Student Engineers' Council at Virginia Tech",
@@ -19,7 +19,17 @@
     "description": "Served as a board member and leader of a 501(c)(3) nonprofit with $1M in annual income.",
     "imagePath": "/images/secatvt.png",
     "url": "https://sec.vt.edu",
-    "skills": ["figma", "swift", "shopify", "stripe", "ramp"]
+    "skills": [
+      "shopify",
+      "ramp",
+      "figma",
+      "airtable",
+      "hubspot",
+      "mailchimp",
+      "qb",
+      "stripe",
+      "swift"
+    ]
   },
   {
     "company": "Virginia Tech",
@@ -30,7 +40,18 @@
     "description": "Served as a front-end developer for the Computer Systems Genome Project where I implemented crowdsourcing features and an intuitive user experience.",
     "imagePath": "/images/virginiatech.jpeg",
     "url": "https://cs.vt.edu",
-    "skills": ["react", "docker", "swift", "figma", "git", "nextjs"]
+    "skills": [
+      "react",
+      "ts",
+      "docker",
+      "nextjs",
+      "figma",
+      "mui",
+      "ansible",
+      "js",
+      "swift",
+      "git"
+    ]
   },
   {
     "company": "Tenable",
@@ -41,7 +62,7 @@
     "description": "Developed an API to expand logging from production jobs to simplify & accelerate troubleshooting.",
     "imagePath": "/images/tenable.jpeg",
     "url": "https://tenable.com",
-    "skills": ["python", "docker"]
+    "skills": ["python", "docker", "flask", "git"]
   },
   {
     "company": "NeuroID",

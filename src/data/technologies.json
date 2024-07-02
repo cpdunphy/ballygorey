@@ -1,11 +1,51 @@
 [
   {
-    "id": "git",
-    "name": "Git",
-    "imagePath": "/images/technologies/git.svg",
-    "color": "#F05133",
+    "id": "airtable",
+    "name": "AirTable",
+    "imagePath": "/images/technologies/airtable.svg",
+    "color": "#3160C2",
+    "type": "business",
+    "url": "https://https://airtable.com/"
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "imagePath": "/images/technologies/ansible.svg",
+    "color": "#DA2F20",
     "type": "developer",
-    "url": "https://git-scm.com/"
+    "url": "https://www.redhat.com/en/technologies/management/ansible/"
+  },
+  {
+    "id": "c",
+    "name": "C",
+    "imagePath": "/images/technologies/c.svg",
+    "color": "#245797",
+    "type": "developer:language",
+    "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "imagePath": "/images/technologies/docker.svg",
+    "color": "#1d63ed",
+    "type": "developer",
+    "url": "https://www.docker.com/"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "imagePath": "/images/technologies/figma.svg",
+    "color": "#985DF6",
+    "type": "developer",
+    "url": "https://www.figma.com/"
+  },
+  {
+    "id": "flask",
+    "name": "Flask",
+    "imagePath": "/images/technologies/flask.svg",
+    "color": "#5DA9C0",
+    "type": "developer",
+    "url": "https://www.figma.com/"
   },
   {
     "id": "firebase",
@@ -14,6 +54,85 @@
     "color": "#FF9100",
     "type": "developer",
     "url": "https://firebase.google.com/"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "imagePath": "/images/technologies/git.svg",
+    "color": "#F05133",
+    "type": "developer",
+    "url": "https://git-scm.com/"
+  },
+  {
+    "id": "hubspot",
+    "name": "HubSpot",
+    "imagePath": "/images/technologies/hubspot.svg",
+    "color": "#EC6744",
+    "type": "business",
+    "url": "https://hubspot.com/"
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "imagePath": "/images/technologies/java.svg",
+    "color": "#4e7896",
+    "type": "developer:language",
+    "url": "https://dev.java/"
+  },
+  {
+    "id": "js",
+    "name": "JavaScript",
+    "imagePath": "/images/technologies/js.svg",
+    "color": "#f7df1e",
+    "type": "developer:language",
+    "url": "http://www.ecmascript.org/"
+  },
+  {
+    "id": "mailchimp",
+    "name": "Mailchimp",
+    "imagePath": "/images/technologies/mailchimp.svg",
+    "color": "#FFE01B",
+    "type": "business",
+    "url": "https://mailchimp.com/"
+  },
+  {
+    "id": "mui",
+    "name": "MUI",
+    "imagePath": "/images/technologies/mui.svg",
+    "color": "#007FFF",
+    "type": "developer",
+    "url": "https://mui.com/"
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "imagePath": "/images/technologies/nextjs.svg",
+    "type": "developer",
+    "url": "https://nextjs.org/"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "imagePath": "/images/technologies/python.svg",
+    "color": "#5a9fd4",
+    "type": "developer:language",
+    "url": "https://python.org"
+  },
+  {
+    "id": "qb",
+    "name": "QuickBooks",
+    "imagePath": "/images/technologies/qb.svg",
+    "color": "#2CA01C",
+    "type": "business",
+    "url": "https://https://quickbooks.intuit.com/"
+  },
+  {
+    "id": "ramp",
+    "name": "Ramp",
+    "imagePath": "/images/technologies/ramp.svg",
+    "color": "#E4F223",
+    "type": "business",
+    "url": "https://ramp.com/"
   },
   {
     "id": "react",
@@ -32,12 +151,11 @@
     "url": "https://www.shopify.com/"
   },
   {
-    "id": "tailwind",
-    "name": "Tailwind",
-    "imagePath": "/images/technologies/tailwind.svg",
-    "color": "#38bdf8",
-    "type": "developer",
-    "url": "https://tailwindcss.com/"
+    "id": "slack",
+    "name": "Slack",
+    "imagePath": "/images/technologies/slack.svg",
+    "type": "business",
+    "url": "https://slack.com/"
   },
   {
     "id": "stripe",
@@ -48,57 +166,27 @@
     "url": "https://stripe.com"
   },
   {
-    "id": "docker",
-    "name": "Docker",
-    "imagePath": "/images/technologies/docker.svg",
-    "color": "#1d63ed",
-    "type": "developer",
-    "url": "https://www.docker.com/"
-  },
-  {
-    "id": "nextjs",
-    "name": "Next.js",
-    "imagePath": "/images/technologies/next.svg",
-    "type": "developer",
-    "url": "https://nextjs.org/"
-  },
-  {
-    "id": "ramp",
-    "name": "Ramp",
-    "imagePath": "/images/technologies/ramp.svg",
-    "color": "#E4F223",
-    "type": "business",
-    "url": "https://ramp.com/"
-  },
-  {
     "id": "swift",
     "name": "Swift",
     "imagePath": "/images/technologies/swift.svg",
     "color": "#F05138",
-    "type": "developer",
+    "type": "developer:language",
     "url": "https://developer.apple.com/swift/"
   },
   {
-    "id": "slack",
-    "name": "Slack",
-    "imagePath": "/images/technologies/slack.svg",
-    "type": "business",
-    "url": "https://slack.com/"
+    "id": "tailwind",
+    "name": "Tailwind",
+    "imagePath": "/images/technologies/tailwind.svg",
+    "color": "#38bdf8",
+    "type": "developer",
+    "url": "https://tailwindcss.com/"
   },
   {
-    "id": "figma",
-    "name": "Figma",
-    "imagePath": "/images/technologies/figma.svg",
-    "color": "#985DF6",
-    "type": "developer",
-    "url": "https://www.figma.com/"
-  },
-  {
-    "id": "python",
-    "name": "Python",
-    "imagePath": "/images/technologies/python.svg",
-    "color": "#5a9fd4",
-    "type": "developer",
-    "url": "https://python.org"
+    "id": "ts",
+    "name": "TypeScript",
+    "imagePath": "/images/technologies/ts.svg",
+    "color": "#3178c6",
+    "type": "developer:language",
+    "url": "https://www.typescriptlang.org/"
   }
 ]
