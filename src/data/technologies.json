@@ -182,6 +182,14 @@
     "url": "https://tailwindcss.com/"
   },
   {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "imagePath": "/images/technologies/tensorflow.svg",
+    "color": "#FF6F00",
+    "type": "developer",
+    "url": "https://www.tensorflow.org/"
+  },
+  {
     "id": "ts",
     "name": "TypeScript",
     "imagePath": "/images/technologies/ts.svg",

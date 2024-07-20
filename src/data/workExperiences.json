@@ -8,7 +8,7 @@
     "description": "Helped build internal LLM app, working on the API and front-end.",
     "imagePath": "/images/deloitte.png",
     "url": "https://www2.deloitte.com/us/en.html",
-    "skills": ["react", "js", "mui", "git"]
+    "skills": ["react", "tensorflow", "js", "mui", "git"]
   },
   {
     "company": "Student Engineers' Council at Virginia Tech",
