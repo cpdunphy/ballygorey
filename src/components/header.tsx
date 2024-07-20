@@ -59,7 +59,7 @@ export default function Header() {
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white/30 px-6 py-4 backdrop-blur-2xl sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:bg-black/30">
           <div className="flex items-center justify-between">
-            <Link href="/" className="-m-1.5 p-1.5" passHref>
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Ballygorey Labs</span>
               <Image
                 className="h-8 w-auto"
@@ -69,7 +69,7 @@ export default function Header() {
                 width={32}
                 height={32}
               />
-            </Link>
+            </a>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
