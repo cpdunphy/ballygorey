@@ -20,9 +20,9 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-white/50 backdrop-blur-lg dark:bg-black/70">
+    <header className="sticky top-0 z-50 w-full bg-white/50 backdrop-blur-lg dark:bg-black/70">
       <nav
-        className="lg mx-auto flex max-w-7xl items-center justify-between px-6 py-4"
+        className="z-40 mx-auto flex max-w-7xl items-center justify-between px-6 py-4"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -48,15 +48,17 @@ export default function Header() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <PopoverGroup className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:gap-x-12">
           <Link href="/projects" className="text-sm font-semibold leading-6">
             Projects
           </Link>
           <Link href="/experience" className="text-sm font-semibold leading-6">
             Experience
           </Link>
-        </PopoverGroup>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end" />
+        </div>
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          {/* Insert a trailing item here */}
+        </div>
       </nav>
       <Dialog
         className="lg:hidden"
@@ -64,8 +66,19 @@ export default function Header() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white/30 px-6 py-6 backdrop-blur-2xl sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:bg-black/30">
-          <div className="flex items-center justify-end">
+        <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white/30 px-6 py-4 backdrop-blur-2xl sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:bg-black/30">
+          <div className="flex items-center justify-between">
+            <Link href="/" className="-m-1.5 p-1.5" passHref>
+              <span className="sr-only">Ballygorey Labs</span>
+              <Image
+                className="h-8 w-auto"
+                src={logo}
+                alt="Logo"
+                sizes="128px"
+                width={32}
+                height={32}
+              />
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
