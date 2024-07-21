@@ -1,11 +1,10 @@
 import Chip from '@/components/chip'
-import WorkExperiences from '@/components/work-experience'
-import technology from '@/data/technologies.json'
-import experiences from '@/data/workExperiences.json'
 import Image from 'next/image'
 import Link from 'next/link'
+import technologies from '@/data/technologies.json'
+import experiences from '@/data/workExperiences.json'
 
-const technologies = [
+const highlightSkills = [
   'react',
   'swift',
   'ts',
@@ -20,16 +19,16 @@ const technologies = [
   'git',
 ]
 
-export default function Demo() {
-  function formatDateString(dateString: string) {
-    const date = new Date(dateString)
-    const options: Intl.DateTimeFormatOptions = {
-      year: 'numeric',
-      month: 'long',
-    }
-    return date.toLocaleDateString('en-US', options)
+function formatDateString(dateString: string) {
+  const date = new Date(dateString)
+  const options: Intl.DateTimeFormatOptions = {
+    year: 'numeric',
+    month: 'long',
   }
+  return date.toLocaleDateString('en-US', options)
+}
 
+export default function Experience() {
   return (
     <>
       <h1>Work Experience</h1>
@@ -58,7 +57,9 @@ export default function Demo() {
               {/* Skills */}
               <div className="flex flex-wrap gap-x-2">
                 {item.skills.map((skill_key) => {
-                  const skill = technology.find((tech) => tech.id === skill_key)
+                  const skill = technologies.find(
+                    (tech) => tech.id === skill_key
+                  )
                   if (!skill) return null
                   return (
                     <Chip key={skill_key} color={skill.color}>
@@ -85,13 +86,14 @@ export default function Demo() {
         })}
       </div>
 
-      <div className="lg:items-centerw flex flex-col lg:flex-row">
+      {/* Highlighted Skills Grid */}
+      <div className="flex flex-col lg:flex-row lg:items-center">
         <h2 className="mb-4 text-balance lg:mb-0 lg:mr-8 lg:flex lg:w-1/4 lg:items-center">
           Using an ever-growing list of technology.
         </h2>
         <div className="grid flex-1 auto-rows-fr grid-cols-[repeat(auto-fit,_minmax(125px,_1fr))] gap-4">
-          {technologies.map((key) => {
-            const skill = technology.find((tech) => tech.id === key)
+          {highlightSkills.map((key) => {
+            const skill = technologies.find((tech) => tech.id === key)
             if (!skill) return null
             return (
               <Link
