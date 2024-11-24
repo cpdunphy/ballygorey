@@ -4,14 +4,7 @@
     "description": "A simple, intuitive diagnostic tool that’s designed by and built for Speech Language Pathologists (SLPs)",
     "imagePath": "/images/ddk.png",
     "url": "https://github.com/cpdunphy/DDK-Assess",
-    "tags": ["apple", "swift", "firebase"]
-  },
-  {
-    "title": "CVHS Wildcats",
-    "description": "An up to date, live calendar to tell you what classes to join at different points of the day. A customizable course schedule updated in real time across all devices.",
-    "imagePath": "/images/wildcats.png",
-    "url": "https://github.com/cpdunphy/Wildcats",
-    "tags": ["apple", "swift", "firebase"]
+    "tags": ["swift", "firebase"]
   },
   {
     "title": "Ballygorey.com",
@@ -19,6 +12,13 @@
     "imagePath": "/images/ballygorey.png",
     "url": "https://github.com/cpdunphy/ballygorey",
     "tags": ["nextjs", "tailwindcss", "typescript"]
+  },
+  {
+    "title": "CVHS Wildcats",
+    "description": "An up to date, live calendar to tell you what classes to join at different points of the day. A customizable course schedule updated in real time across all devices.",
+    "imagePath": "/images/wildcats.png",
+    "url": "https://github.com/cpdunphy/Wildcats",
+    "tags": ["swift", "firebase"]
   },
   {
     "title": "Research: CS Genome Project",
@@ -32,6 +32,6 @@
     "description": "Custom ticket management system and check-in system for the SEC Engineers' Ball, a formal dance hosted by the Virginia Tech Student Engineers' Council.",
     "imagePath": "/images/eball-tickets.jpg",
     "url": "https://github.com/SECatVT/E-Ball-Tickets",
-    "tags": ["api", "devops", "outreach"]
+    "tags": ["api", "devops", "outreach", "swift", "firebase"]
   }
 ]
