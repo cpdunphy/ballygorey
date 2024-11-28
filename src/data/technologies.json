@@ -158,6 +158,13 @@
     "url": "https://slack.com/"
   },
   {
+    "id": "socketio",
+    "name": "Socket.IO",
+    "imagePath": "/images/technologies/socketio.svg",
+    "type": "developer:framework",
+    "url": "https://socket.io/"
+  },
+  {
     "id": "stripe",
     "name": "Stripe",
     "imagePath": "/images/technologies/stripe.svg",

@@ -43,11 +43,12 @@
     "skills": [
       "react",
       "ts",
+      "socketio",
+      "ansible",
       "docker",
       "nextjs",
       "figma",
       "mui",
-      "ansible",
       "js",
       "swift",
       "git"
