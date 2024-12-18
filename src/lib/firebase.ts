@@ -1,6 +1,6 @@
 'use client'
 import { initializeApp } from 'firebase/app'
-import { getAnalytics } from 'firebase/analytics'
+import { getAnalytics, isSupported } from 'firebase/analytics'
 
 // Firebase configuration
 const firebaseConfig = {
@@ -15,6 +15,21 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
-const analytics = getAnalytics(app)
+var analytics = null
+
+if (process.env.NODE_ENV === 'production') {
+  isSupported()
+    .then((supported) => {
+      if (supported) {
+        analytics = getAnalytics(app)
+        console.log('Firebase Analytics initialized')
+      }
+    })
+    .catch((error) => {
+      console.error('Firebase Analytics not supported:', error)
+    })
+} else {
+  console.log('Firebase Analytics disabled in development')
+}
 
 export { app, analytics }

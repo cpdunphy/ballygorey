@@ -4,11 +4,18 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useEffect } from 'react'
 
 const logo = '/images/logo.png'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  useEffect(() => {
+    import('../lib/firebase').then(({ analytics }) => {
+      // Firebase Analytics initialized
+    })
+  }, [])
 
   return (
     <header className="sticky top-0 z-50 w-full bg-white/50 backdrop-blur-lg dark:bg-black/70">
