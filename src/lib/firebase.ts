@@ -1,6 +1,6 @@
 'use client'
 import { initializeApp } from 'firebase/app'
-import { getAnalytics, isSupported, Analytics } from 'firebase/analytics'
+import { getAnalytics } from 'firebase/analytics'
 
 // Firebase configuration
 const firebaseConfig = {
@@ -15,5 +15,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
+const analytics = getAnalytics(app)
 
-export { app }
+export { app, analytics }
