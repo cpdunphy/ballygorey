@@ -26,7 +26,7 @@ export default function Page() {
                 key={project.title}
                 passHref
                 href={project.url}
-                className="rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800/50 "
+                className="rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800/50"
               >
                 <div className="group relative flex flex-col items-start space-y-4 p-4 transition ease-in-out">
                   <div className="relative flex h-14 w-14 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
