@@ -22,7 +22,6 @@ if (process.env.NODE_ENV === 'production') {
     .then((supported) => {
       if (supported) {
         analytics = getAnalytics(app)
-        console.log('Firebase Analytics initialized')
       }
     })
     .catch((error) => {
