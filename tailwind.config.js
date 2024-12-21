@@ -28,5 +28,6 @@ module.exports = {
       tailwindcss: {},
       autoprefixer: {},
     },
+    require('@tailwindcss/typography'),
   ],
 }
