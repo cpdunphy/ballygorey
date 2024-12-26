@@ -1,3 +1,5 @@
+import experiences from '@/data/workExperiences.json'
+
 export default async function Page({
   params,
 }: {
@@ -6,7 +8,15 @@ export default async function Page({
   const { slug } = await params
   const { default: Post } = await import(`@/app/experience/content/${slug}.mdx`)
 
-  return <Post />
+  const details = experiences.find((experience) => experience.id === slug)
+
+  return (
+    <article className="prose max-w-none dark:prose-invert">
+      <h1>{details?.company}</h1>
+      <p>{details?.description}</p>
+      <Post />
+    </article>
+  )
 }
 
 export async function generateStaticParams() {
