@@ -1,3 +1,5 @@
+import { promises as fs } from 'fs'
+import path from 'path'
 import experiences from '@/data/workExperiences.json'
 
 export default async function Page({
@@ -20,7 +22,16 @@ export default async function Page({
 }
 
 export async function generateStaticParams() {
-  const slugs = ['test', 'secatvt', 'tenable']
+  // Read all files content directory
+  const contentDir = path.join(process.cwd(), 'src/app/experience/content')
+  const files = await fs.readdir(contentDir)
+
+  // Extract slugs by removing the file extensions
+  const slugs = files
+    .filter((file) => file.endsWith('.mdx')) // Ensure only MDX files are processed
+    .map((file) => file.replace(/\.mdx$/, ''))
+
+  // Return the slugs in param format
   return slugs.map((slug) => ({ slug }))
 }
 
