@@ -1,7 +1,7 @@
+import type { NextConfig } from 'next'
 import createMDX from '@next/mdx'
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
   pageExtensions: ['tsx', 'mdx'],
   redirects: async () => {
     return [
