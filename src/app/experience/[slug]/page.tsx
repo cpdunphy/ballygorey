@@ -3,9 +3,8 @@ export default async function Page({
 }: {
   params: Promise<{ slug: string }>
 }) {
-  const slug = (await params).slug
-  // const { default: Post } = await import(`@/app/experience/content/${slug}.mdx`)
-  const { default: Post } = await import(`../content/${slug}.mdx`)
+  const { slug } = await params
+  const { default: Post } = await import(`@/app/experience/content/${slug}.mdx`)
 
   return <Post />
 }
