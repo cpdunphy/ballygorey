@@ -1,5 +1,6 @@
 import type { NextConfig } from 'next'
 import createMDX from '@next/mdx'
+import remarkGfm from 'remark-gfm'
 
 const nextConfig: NextConfig = {
   pageExtensions: ['tsx', 'mdx'],
@@ -26,6 +27,10 @@ const nextConfig: NextConfig = {
 
 const withMDX = createMDX({
   // Add any MDX options here
+  options: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [],
+  },
 })
 
 export default withMDX(nextConfig)
