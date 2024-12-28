@@ -13,6 +13,10 @@ export default function Page() {
     '/images/advancement_dinner_2023.jpeg',
   ]
 
+  const title = 'Software Engineer, Aspiring Comedian, and Student'
+  const subtitle =
+    "Hey, I'm Collin—a Senior majoring in Computer Science at Virginia Tech. I'm passionate about creating impactful solutions and making a positive difference in the world. I'm looking for full-time opportunities starting Summer 2025."
+
   return (
     <div className="space-y-6">
       <section>
@@ -26,12 +30,9 @@ export default function Page() {
             sizes="128px"
           />
         </Link>
-        <h1>Software Engineer, Aspiring Comedian, and Enthusiastic Learner</h1>
+        <h1 className="max-w-2xl">{title}</h1>
         <p className="mt-6 max-w-2xl text-base text-zinc-600 dark:text-zinc-400">
-          I&apos;m Collin, a Senior majoring in Computer Science at Virginia
-          Tech. I&apos;m passionate about creating impactful solutions and
-          making a positive difference in the world. I&apos;m actively seeking
-          full-time opportunities starting Summer 2024.
+          {subtitle}
         </p>
         <Socials />
       </section>
