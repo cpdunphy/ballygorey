@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import technologies from '@/data/technologies.json'
 import experiences from '@/data/workExperiences.json'
+import TechChips from './TechChips'
 
 const highlightSkills = [
   'react',
@@ -55,30 +56,7 @@ export default function Experience() {
               <p className="pb-1">{item.description}</p>
 
               {/* Skills */}
-              <div className="flex flex-wrap gap-x-2">
-                {item.skills.map((skill_key) => {
-                  const skill = technologies.find(
-                    (tech) => tech.id === skill_key
-                  )
-                  if (!skill) return null
-                  return (
-                    <Chip key={skill_key} color={skill.color}>
-                      <div className="flex items-center space-x-4">
-                        <div className="relative mr-2 flex h-3 w-3 items-center">
-                          <Image
-                            src={skill.imagePath}
-                            alt={`${skill.name} Logo`}
-                            className="object-contain"
-                            fill
-                            sizes="12px"
-                          />
-                        </div>
-                        {skill.name}
-                      </div>
-                    </Chip>
-                  )
-                })}
-              </div>
+              <TechChips skills={item.skills} />
 
               <hr className="my-4 border-gray-200 sm:mx-auto lg:my-6 dark:border-gray-800" />
             </div>

@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 import experiences from '@/data/workExperiences.json'
+import TechChips from '../TechChips'
 
 export default async function Page({
   params,
@@ -13,11 +14,21 @@ export default async function Page({
   const details = experiences.find((experience) => experience.id === slug)
 
   return (
-    <article className="prose max-w-none dark:prose-invert">
-      <h1>{details?.company}</h1>
+    <div className="space-y-2">
+      {/* Title */}
+      {details?.company && <h1>{details?.company}</h1>}
+
+      {/* Caption */}
       <p>{details?.description}</p>
-      <Post />
-    </article>
+
+      {/* Skills */}
+      {details?.skills && <TechChips skills={details.skills} />}
+
+      <article className="prose dark:prose-invert">
+        <h1>{details?.company}</h1>
+        <Post />
+      </article>
+    </div>
   )
 }
 
