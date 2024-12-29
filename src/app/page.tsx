@@ -9,7 +9,7 @@ export default function Page() {
     '/images/family_photo_2023.jpeg',
     '/images/eweek_trivia_2023.jpeg',
     '/images/graduation_2023.jpeg',
-    '/images/eweek_talent_2023.jpeg',
+    '/images/eweek_talent-show_2023.jpeg',
     '/images/advancement_dinner_2023.jpeg',
   ]
 
