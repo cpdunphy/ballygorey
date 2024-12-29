@@ -12,6 +12,15 @@
   h3 {
     @apply text-2xl font-semibold text-zinc-800 dark:text-zinc-100;
   }
+
+  p {
+    @apply text-zinc-800 dark:text-zinc-100;
+  }
+
+  ul {
+    @apply list-inside list-disc;
+  }
+
   hr {
     @apply border-gray-200 dark:border-gray-800;
   }
