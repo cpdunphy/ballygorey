@@ -4,7 +4,7 @@ import technologies from '@/data/technologies.json'
 
 export default function TechChips({ skills }: { skills: string[] }) {
   return (
-    <div className="flex flex-wrap gap-x-2">
+    <div className="flex flex-wrap gap-2">
       {skills.map((skill_key) => {
         const skill = technologies.find((tech) => tech.id === skill_key)
         if (!skill) return null

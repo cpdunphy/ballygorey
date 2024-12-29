@@ -56,9 +56,11 @@ export default function Experience() {
               <p className="pb-1">{item.description}</p>
 
               {/* Skills */}
-              <TechChips skills={item.skills} />
+              <div className="mt-2">
+                <TechChips skills={item.skills} />
+              </div>
 
-              <hr className="my-4 border-gray-200 sm:mx-auto lg:my-6 dark:border-gray-800" />
+              <hr className="my-4 sm:mx-auto lg:my-6" />
             </div>
           )
         })}

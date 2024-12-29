@@ -26,7 +26,7 @@ export default function Badge({ color, children }: BadgeProps) {
 
   return (
     <div
-      className={`mt-2 rounded-full bg-gray-400/20 px-3 py-1 text-xs font-medium text-gray-700 dark:text-gray-300`}
+      className={`rounded-full bg-gray-400/20 px-3 py-1 text-xs font-medium text-gray-700 dark:text-gray-300`}
       style={{
         backgroundColor: lightVariant,
         color: color,
