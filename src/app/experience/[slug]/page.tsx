@@ -2,6 +2,8 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import experiences from '@/data/workExperiences.json'
 import TechChips from '../TechChips'
+import Link from 'next/link'
+import { formatDateString } from '../utils'
 
 export default async function Page({
   params,
@@ -18,8 +20,14 @@ export default async function Page({
       {/* Title */}
       {details?.company && <h1>{details?.company}</h1>}
 
-      {/* Caption */}
-      <p>{details?.description}</p>
+      {/* Dates */}
+      {details?.startDate && (
+        <p>
+          {`${formatDateString(details.startDate)} — ${
+            details.endDate ? formatDateString(details.endDate) : 'Present'
+          }`}
+        </p>
+      )}
 
       {/* Skills */}
       {details?.skills && <TechChips skills={details.skills} />}

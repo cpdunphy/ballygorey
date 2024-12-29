@@ -4,6 +4,7 @@ import Link from 'next/link'
 import technologies from '@/data/technologies.json'
 import experiences from '@/data/workExperiences.json'
 import TechChips from './TechChips'
+import { formatDateString } from './utils'
 
 const highlightSkills = [
   'react',
@@ -19,15 +20,6 @@ const highlightSkills = [
   'flask',
   'git',
 ]
-
-function formatDateString(dateString: string) {
-  const date = new Date(dateString)
-  const options: Intl.DateTimeFormatOptions = {
-    year: 'numeric',
-    month: 'long',
-  }
-  return date.toLocaleDateString('en-US', options)
-}
 
 export default function Experience() {
   return (
