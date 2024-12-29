@@ -16,26 +16,32 @@ export default async function Page({
   const details = experiences.find((experience) => experience.id === slug)
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-4">
       {/* Title */}
-      {details?.company && <h1>{details?.company}</h1>}
+      {details && (
+        <h1 className="text-4xl font-bold">
+          {details?.role} @{' '}
+          <Link href={details?.url} className="hover:text-teal-500">
+            {details?.company}
+          </Link>
+        </h1>
+      )}
 
       {/* Dates */}
       {details?.startDate && (
-        <p>
+        <h3>
           {`${formatDateString(details.startDate)} — ${
             details.endDate ? formatDateString(details.endDate) : 'Present'
           }`}
-        </p>
+        </h3>
       )}
 
       {/* Skills */}
       {details?.skills && <TechChips skills={details.skills} />}
 
-      <article className="prose dark:prose-invert">
-        <h1>{details?.company}</h1>
-        <Post />
-      </article>
+      <hr className="my-4" />
+
+      <Post />
     </div>
   )
 }
