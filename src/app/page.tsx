@@ -48,7 +48,11 @@ export default function Page() {
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
                 src={imagePath}
-                alt="Graduation 2023"
+                alt={imagePath
+                  .replace('/images/', '')
+                  .replace('.jpeg', '')
+                  .replaceAll('_', ' ')}
+                priority
                 width={3000}
                 height={2000}
                 sizes="(min-width: 640px) 18rem, 11rem"
