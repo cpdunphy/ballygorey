@@ -29,7 +29,7 @@
     "@tailwindcss/typography": "^0.5.15",
     "@types/mdx": "^2.0.13",
     "@types/node": "22.10.2",
-    "@types/react": "19.0.2",
+    "@types/react": "19.0.12",
     "@types/react-dom": "19.0.2",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.17.0",
