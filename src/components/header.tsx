@@ -47,10 +47,10 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          <Link href="/projects" className="text-sm font-semibold leading-6">
+          <Link href="/projects" className="text-sm leading-6 font-semibold">
             Projects
           </Link>
-          <Link href="/experience" className="text-sm font-semibold leading-6">
+          <Link href="/experience" className="text-sm leading-6 font-semibold">
             Experience
           </Link>
         </div>
@@ -95,14 +95,14 @@ export default function Header() {
               <div className="space-y-2 py-6">
                 <Link
                   href="/projects"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-950"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 font-semibold text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-950"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Projects
                 </Link>
                 <Link
                   href="/experience"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-950"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 font-semibold text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-950"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Experience

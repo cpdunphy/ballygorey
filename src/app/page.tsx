@@ -43,7 +43,7 @@ export default function Page() {
               key={imagePath}
               className={`${
                 index % 2 === 0 ? 'rotate-2' : '-rotate-2'
-              } relative aspect-[10/9] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800`}
+              } relative aspect-10/9 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800`}
             >
               <Image
                 className="absolute inset-0 h-full w-full object-cover"

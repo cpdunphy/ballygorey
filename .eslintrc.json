@@ -1,7 +1,4 @@
 {
   "extends": "next/core-web-vitals",
-  "plugins": ["tailwindcss"],
-  "rules": {
-    "tailwindcss/classnames-order": "warn"
-  }
+  "rules": {}
 }

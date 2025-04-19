@@ -18,7 +18,7 @@ export default function Page() {
           and many are open-source. If you&apos;re curious, take a look at the
           code, and let&apos;s collaborate to make something even better.
         </p>
-        <div className="grid flex-grow grid-cols-1 flex-row gap-x-4 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grow grid-cols-1 flex-row gap-x-4 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => {
             const domain = new URL(project.url).hostname
             return (
@@ -29,7 +29,7 @@ export default function Page() {
                 className="rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800/50"
               >
                 <div className="group relative flex flex-col items-start space-y-4 p-4 transition ease-in-out">
-                  <div className="relative flex h-14 w-14 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                  <div className="relative flex h-14 w-14 flex-none items-center justify-center rounded-full shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                     <Image
                       src={project.imagePath}
                       alt={`${project.title} Logo`}
@@ -43,7 +43,7 @@ export default function Page() {
 
                   <p className="font-semibold">{project.title}</p>
                   {/* <div className="abs olute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"> </div> */}
-                  <p className="flex-grow text-sm text-zinc-600 dark:text-zinc-400">
+                  <p className="grow text-sm text-zinc-600 dark:text-zinc-400">
                     {project.description}
                   </p>
                   <p className="relative flex items-center justify-center text-sm text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">

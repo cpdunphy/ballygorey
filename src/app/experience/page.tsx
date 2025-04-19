@@ -60,10 +60,10 @@ export default function Experience() {
 
       {/* Highlighted Skills Grid */}
       <div className="flex flex-col lg:flex-row lg:items-center">
-        <h2 className="mb-4 text-balance lg:mb-0 lg:mr-8 lg:flex lg:w-1/4 lg:items-center">
+        <h2 className="mb-4 text-balance lg:mr-8 lg:mb-0 lg:flex lg:w-1/4 lg:items-center">
           Using an ever-growing list of technology.
         </h2>
-        <div className="grid flex-1 auto-rows-fr grid-cols-[repeat(auto-fit,_minmax(125px,_1fr))] gap-4">
+        <div className="grid flex-1 auto-rows-fr grid-cols-[repeat(auto-fit,minmax(125px,1fr))] gap-4">
           {highlightSkills.map((key) => {
             const skill = technologies.find((tech) => tech.id === key)
             if (!skill) return null
