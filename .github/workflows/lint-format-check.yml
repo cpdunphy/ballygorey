@@ -22,11 +22,4 @@ jobs:
         run: npm run lint
 
       - name: Run Prettier
-        run: npm run format
-
-      - name: Check for changes
-        shell: bash
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git diff --quiet || (git add . && git commit -m "style: format code with Prettier" && git push)
+        run: npm run format:check
