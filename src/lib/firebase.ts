@@ -15,7 +15,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
-var analytics = null
+let analytics: ReturnType<typeof getAnalytics> | null = null
 
 if (process.env.NODE_ENV === 'production') {
   isSupported()

@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import avatar from 'app/avatar.jpg'
 import WorkExperiences from '@/components/work-experience'
 import Socials from '@/components/socials'
 

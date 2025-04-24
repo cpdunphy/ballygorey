@@ -1,4 +1,3 @@
-import Chip from '@/components/chip'
 import Image from 'next/image'
 import Link from 'next/link'
 import technologies from '@/data/technologies.json'

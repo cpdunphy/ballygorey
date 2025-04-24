@@ -14,6 +14,9 @@ export default function Header() {
   useEffect(() => {
     import('../lib/firebase').then(({ analytics }) => {
       // Firebase Analytics initialized
+      if (analytics) {
+        // do something
+      }
     })
   }, [])
 
