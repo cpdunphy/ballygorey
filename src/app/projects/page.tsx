@@ -8,55 +8,58 @@ export const metadata = {
 }
 
 export default function Page() {
-  return (
-    <>
-      <section className="max-w-7xl">
-        <h1>Things I&apos;ve Made</h1>
-        <p className="mt-6 max-w-2xl text-base text-zinc-600 dark:text-zinc-400">
-          Check out the highlights of my coding adventures: the projects that
-          stand out in my memory and portfolio. They&apos;re all labors of love,
-          and many are open-source. If you&apos;re curious, take a look at the
-          code, and let&apos;s collaborate to make something even better.
-        </p>
-        <div className="grid grow grid-cols-1 flex-row gap-x-4 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project) => {
-            const domain = new URL(project.url).hostname
-            return (
-              <Link
-                key={project.title}
-                passHref
-                href={project.url}
-                className="rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800/50"
-              >
-                <div className="group relative flex flex-col items-start space-y-4 p-4 transition ease-in-out">
-                  <div className="relative flex h-14 w-14 flex-none items-center justify-center rounded-full shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-                    <Image
-                      src={project.imagePath}
-                      alt={`${project.title} Logo`}
-                      width={40}
-                      height={40}
-                      sizes="40px"
-                      style={{ objectFit: 'contain' }}
-                      className="rounded-full"
-                    />
-                  </div>
+  const title = "Things I've Made"
 
-                  <p className="font-semibold">{project.title}</p>
-                  {/* <div className="abs olute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"> </div> */}
-                  <p className="grow text-sm text-zinc-600 dark:text-zinc-400">
-                    {project.description}
-                  </p>
-                  <p className="relative flex items-center justify-center text-sm text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
-                    <LinkIcon />
-                    <span className="ml-2">{domain}</span>
-                  </p>
+  const description =
+    "A selection of projects I've worked on, exploring different ideas and technologies. These are the ones I'm proud of, and each has been a chance to build, learn, and create. Feel free to explore the code, and reach out if you'd like to collaborate."
+
+  return (
+    <section>
+      <h1>{title}</h1>
+
+      <p className="mt-6 max-w-2xl text-base text-zinc-600 dark:text-zinc-400">
+        {description}
+      </p>
+
+      <div className="grid grow grid-cols-1 flex-row gap-x-4 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
+        {projects.map((project) => {
+          const domain = new URL(project.url).hostname
+          return (
+            <Link
+              key={project.title}
+              passHref
+              href={project.url}
+              className="rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800/50"
+            >
+              <div className="group relative flex flex-col items-start space-y-4 p-4 transition ease-in-out">
+                <div className="relative flex h-14 w-14 flex-none items-center justify-center rounded-full shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                  <Image
+                    src={project.imagePath}
+                    alt={`${project.title} Logo`}
+                    width={40}
+                    height={40}
+                    sizes="40px"
+                    style={{ objectFit: 'contain' }}
+                    className="rounded-full"
+                  />
                 </div>
-              </Link>
-            )
-          })}
-        </div>
-      </section>
-    </>
+
+                <p className="font-semibold">{project.title}</p>
+
+                <p className="grow text-sm text-zinc-600 dark:text-zinc-400">
+                  {project.description}
+                </p>
+
+                <p className="relative flex items-center justify-center text-sm text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+                  <LinkIcon />
+                  <span className="ml-2">{domain}</span>
+                </p>
+              </div>
+            </Link>
+          )
+        })}
+      </div>
+    </section>
   )
 }
 

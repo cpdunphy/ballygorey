@@ -20,10 +20,16 @@ const highlightSkills = [
   'git',
 ]
 
+export const metadata = {
+  title: 'Experience',
+  description: 'Work Experience',
+}
+
 export default function Experience() {
   return (
-    <>
+    <section>
       <h1>Work Experience</h1>
+
       <div>
         {experiences.map((item) => {
           const startDate = formatDateString(item.startDate)
@@ -91,6 +97,6 @@ export default function Experience() {
           })}
         </div>
       </div>
-    </>
+    </section>
   )
 }

@@ -20,6 +20,7 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="teal"></meta>
       </head>
+
       <body className="flex h-full">
         <div className="relative w-full flex-col">
           <Header />
