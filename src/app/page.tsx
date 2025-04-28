@@ -19,7 +19,7 @@ export default function Page() {
   return (
     <div className="space-y-6">
       <section>
-        <Link href="/" passHref className="h-16 w-16">
+        <Link href="/" passHref className="block">
           <Image
             className="h-16 w-16 rounded-full border border-neutral-200 object-cover dark:border-neutral-700"
             src="/images/avatar.jpg"
@@ -29,37 +29,40 @@ export default function Page() {
             sizes="128px"
           />
         </Link>
+
         <h1 className="max-w-2xl">{title}</h1>
-        <p className="mt-6 max-w-2xl text-base text-zinc-600 dark:text-zinc-400">
+
+        <p className="max-w-2xl text-base text-zinc-600 dark:text-zinc-400">
           {subtitle}
         </p>
+
         <Socials />
       </section>
-      <div>
-        <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-          {images.map((imagePath, index) => (
-            <div
-              key={imagePath}
-              className={`${
-                index % 2 === 0 ? 'rotate-2' : '-rotate-2'
-              } relative aspect-10/9 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800`}
-            >
-              <Image
-                className="absolute inset-0 h-full w-full object-cover"
-                src={imagePath}
-                alt={imagePath
-                  .replace('/images/', '')
-                  .replace('.jpeg', '')
-                  .replaceAll('_', ' ')}
-                priority
-                width={3000}
-                height={2000}
-                sizes="(min-width: 640px) 18rem, 11rem"
-              />
-            </div>
-          ))}
-        </div>
+
+      <div className="flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
+        {images.map((imagePath, index) => (
+          <div
+            key={imagePath}
+            className={`${
+              index % 2 === 0 ? 'rotate-2' : '-rotate-2'
+            } relative aspect-10/9 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800`}
+          >
+            <Image
+              className="absolute inset-0 h-full w-full object-cover"
+              src={imagePath}
+              alt={imagePath
+                .replace('/images/', '')
+                .replace('.jpeg', '')
+                .replaceAll('_', ' ')}
+              priority
+              width={3000}
+              height={2000}
+              sizes="(min-width: 640px) 18rem, 11rem"
+            />
+          </div>
+        ))}
       </div>
+
       <section>
         <WorkExperiences />
       </section>
