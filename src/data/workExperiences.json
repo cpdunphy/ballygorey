@@ -1,17 +1,5 @@
 [
   {
-    "id": "deloitte",
-    "company": "Deloitte",
-    "role": "Software Engineer Intern",
-    "startDate": "2024-05-28",
-    "endDate": "2024-07-19",
-    "location": "Tysons, VA",
-    "description": "Helped build internal LLM app, working on the API and front-end.",
-    "imagePath": "/images/deloitte.png",
-    "url": "https://www2.deloitte.com/us/en.html",
-    "skills": ["react", "tensorflow", "js", "mui", "git"]
-  },
-  {
     "id": "secatvt",
     "company": "Student Engineers' Council at Virginia Tech",
     "role": "President",
@@ -32,6 +20,18 @@
       "stripe",
       "swift"
     ]
+  },
+  {
+    "id": "deloitte",
+    "company": "Deloitte",
+    "role": "Software Engineer Intern",
+    "startDate": "2024-05-28",
+    "endDate": "2024-07-19",
+    "location": "Tysons, VA",
+    "description": "Helped build internal LLM app, working on the API and front-end.",
+    "imagePath": "/images/deloitte.png",
+    "url": "https://www2.deloitte.com/us/en.html",
+    "skills": ["react", "tensorflow", "js", "mui", "git"]
   },
   {
     "id": "burgs",
