@@ -5,11 +5,11 @@ import Socials from '@/components/socials'
 
 export default function Page() {
   const images = [
-    '/images/family_photo_2023.jpeg',
-    '/images/eweek_trivia_2023.jpeg',
+    '/images/20241026_homecoming.jpeg',
+    '/images/20250410_hokie_launch_party.jpeg',
+    '/images/20250329_eball.jpg',
     '/images/graduation_2023.jpeg',
-    '/images/eweek_talent-show_2023.jpeg',
-    '/images/advancement_dinner_2023.jpeg',
+    '/images/20250424_academy.jpeg',
   ]
 
   const title = 'Software Engineer, Aspiring Comedian, and Student'
