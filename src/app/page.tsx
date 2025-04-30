@@ -55,9 +55,9 @@ export default function Page() {
                 .replace('.jpeg', '')
                 .replaceAll('_', ' ')}
               priority
-              width={3000}
-              height={2000}
-              sizes="(min-width: 640px) 18rem, 11rem"
+              width={1200}
+              height={800}
+              sizes="(min-width: 1024px) 600px, (min-width: 640px) 400px, 100vw"
             />
           </div>
         ))}
