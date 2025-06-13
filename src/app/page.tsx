@@ -14,7 +14,7 @@ export default function Page() {
 
   const title = 'Software Engineer, Aspiring Comedian, and Student'
   const subtitle =
-    "Hey, I'm Collin—a Senior majoring in Computer Science at Virginia Tech. I'm passionate about creating impactful solutions and making a positive difference in the world. I'm looking for full-time opportunities starting Summer 2025."
+    "Hey, I'm Collin. I'm passionate about creating impactful solutions and making a positive difference in the world."
 
   return (
     <div className="space-y-6">
