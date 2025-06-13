@@ -1,5 +1,15 @@
 [
   {
+    "id": "experian",
+    "company": "Experian",
+    "role": "Software Engineer",
+    "startDate": "2025-05-28",
+    "location": "Blacksburg, VA",
+    "imagePath": "/images/experian.png",
+    "url": "https://www.experian.com",
+    "skills": ["python", "js", "git"]
+  },
+  {
     "id": "secatvt",
     "company": "Student Engineers' Council at Virginia Tech",
     "role": "President",
