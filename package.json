@@ -34,7 +34,7 @@
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
     "eslint": "^9",
-    "eslint-config-next": "^15",
+    "eslint-config-next": "^16",
     "postcss": "^8",
     "postcss-simple-vars": "^7",
     "prettier": "^3",
