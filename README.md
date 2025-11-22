@@ -1,8 +1,9 @@
 # Ballygorey
 
-Associated urls
+Associated urls:
 
 - [ballygorey.com](https://ballygorey.com)
+- [labs.ballygorey.com](https://labs.ballygorey.com)
 - [collindunphy.com](https://collindunphy.com) (Vanity Domain)
 - [collindunphy.org](https://collindunphy.org) (Vanity Domain)
 

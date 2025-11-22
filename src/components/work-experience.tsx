@@ -22,11 +22,12 @@ export default function WorkExperiences() {
   }
 
   return (
-    <div className="max-w-md space-y-4 rounded-2xl p-6 outline outline-1 outline-gray-100 dark:outline-gray-600">
+    <div className="max-w-md space-y-4 rounded-2xl p-6 outline outline-gray-100 dark:outline-gray-600">
       <div className="inline-flex items-center justify-center gap-x-2 font-semibold">
         <BriefcaseIcon className="h-5 w-5" />
         Work
       </div>
+
       <div className="space-y-4">
         {workExperiences.map((item) => (
           <Link
@@ -53,6 +54,7 @@ export default function WorkExperiences() {
           </Link>
         ))}
       </div>
+
       <DownloadResumeButton />
     </div>
   )

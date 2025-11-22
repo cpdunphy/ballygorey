@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write .",
+    "format:fix": "prettier --write .",
     "format:check": "prettier --check .",
     "clean": "rm -rf node_modules",
     "reinstall": "npm run clean && npm install"

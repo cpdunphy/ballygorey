@@ -74,7 +74,7 @@ export default function Header() {
               className="-m-1.5 p-1.5"
               onClick={() => setMobileMenuOpen(false)}
             >
-              <span className="sr-only">Ballygorey Labs HELLO</span>
+              <span className="sr-only">Ballygorey Labs</span>
               <Image
                 className="h-8 w-auto"
                 src={logo}
