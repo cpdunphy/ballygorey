@@ -18,7 +18,7 @@
     "@mdx-js/loader": "^3",
     "@mdx-js/react": "^3",
     "@next/mdx": "^15",
-    "firebase": "^11",
+    "firebase": "^12",
     "next": "15.3.x",
     "next-mdx-remote": "^5",
     "react": "19.1.0",
