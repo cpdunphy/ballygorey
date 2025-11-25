@@ -7,7 +7,7 @@
     "location": "Blacksburg, VA",
     "imagePath": "/images/experian.png",
     "url": "https://www.experian.com",
-    "skills": ["python", "js", "git"]
+    "skills": ["aws", "tf", "datadog", "docker", "swift", "python", "js", "git"]
   },
   {
     "id": "secatvt",

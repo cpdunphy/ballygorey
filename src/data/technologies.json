@@ -16,12 +16,28 @@
     "url": "https://www.redhat.com/en/technologies/management/ansible/"
   },
   {
+    "id": "aws",
+    "name": "AWS",
+    "imagePath": "/images/technologies/aws.svg",
+    "color": "#FF9900",
+    "type": "developer",
+    "url": "https://aws.amazon.com/"
+  },
+  {
     "id": "c",
     "name": "C",
     "imagePath": "/images/technologies/c.svg",
     "color": "#245797",
     "type": "developer:language",
     "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "imagePath": "/images/technologies/datadog.svg",
+    "color": "#632CA6",
+    "type": "developer",
+    "url": "https://www.datadoghq.com/"
   },
   {
     "id": "docker",
@@ -195,6 +211,14 @@
     "color": "#FF6F00",
     "type": "developer",
     "url": "https://www.tensorflow.org/"
+  },
+  {
+    "id": "tf",
+    "name": "Terraform",
+    "imagePath": "/images/technologies/tf.svg",
+    "color": "#5A4FDD",
+    "type": "developer",
+    "url": "https://www.terraform.io/"
   },
   {
     "id": "ts",
