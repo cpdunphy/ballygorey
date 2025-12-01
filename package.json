@@ -38,7 +38,7 @@
     "postcss": "^8",
     "postcss-simple-vars": "^7",
     "prettier": "^3",
-    "prettier-plugin-tailwindcss": "^0.6",
+    "prettier-plugin-tailwindcss": "^0.7",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
