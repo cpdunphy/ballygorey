@@ -21,7 +21,7 @@
     "firebase": "^11",
     "next": "15.3.x",
     "next-mdx-remote": "^5",
-    "react": "19.1.0",
+    "react": "19.2.0",
     "react-dom": "19.1.0",
     "remark-gfm": "^4"
   },
@@ -31,7 +31,7 @@
     "@tailwindcss/typography": "^0.5",
     "@types/mdx": "^2",
     "@types/node": "24.0.1",
-    "@types/react": "19.1.8",
+    "@types/react": "19.2.7",
     "@types/react-dom": "19.1.6",
     "eslint": "^9",
     "eslint-config-next": "^15",
