@@ -52,6 +52,7 @@ function DownloadResumeButton() {
       className="inline-flex w-full items-center justify-center gap-x-2 rounded-md bg-teal-600 px-4 py-2 font-medium text-white hover:bg-teal-500"
       passHref
       target="_blank"
+      rel="nofollow noopener"
       key="Download Resume"
     >
       Download Resume
