@@ -1,5 +1,4 @@
 'use client'
-import { ArrowDownTrayIcon } from '@heroicons/react/24/outline'
 import { BriefcaseIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -39,23 +38,6 @@ export default function WorkExperiences() {
           </Link>
         ))}
       </div>
-
-      <DownloadResumeButton />
     </div>
-  )
-}
-
-function DownloadResumeButton() {
-  return (
-    <Link
-      href="/CollinDunphy_Resume.pdf"
-      className="inline-flex w-full items-center justify-center gap-x-2 rounded-md bg-teal-600 px-4 py-2 font-medium text-white hover:bg-teal-500"
-      passHref
-      target="_blank"
-      key="Download Resume"
-    >
-      Download Resume
-      <ArrowDownTrayIcon className="h-4 w-4" aria-hidden="true" />
-    </Link>
   )
 }

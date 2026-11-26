@@ -11,11 +11,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/resume',
-        destination: '/CollinDunphy_Resume.pdf',
-        permanent: true,
-      },
-      {
         source: '/calendar',
         destination: 'https://fantastical.app/cpdunphy/general',
         permanent: true,
